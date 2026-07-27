@@ -1,8 +1,8 @@
 # Week 2 Lab — Explore Your Own Machine (Real Specs & Live Activity)
 
-**Student Name:**
+**Student Name:** Na'Ketta Williams
 
-**Date Completed:**
+**Date Completed:** July 26, 2026
 
 **Module:** 1 — Digital Infrastructure & CLI | **Week:** 2  
 **Submission Path:** `week-02/labs/lab-02-machine-exploration.md`
@@ -91,7 +91,7 @@ The process list updates constantly and can be hard to read while it's jumping a
 Look at the current CPU usage percentage.
 
 ```
-Current CPU usage: ____%
+Current CPU usage: 2%
 ```
 
 ### Step 5 — Record Memory Usage
@@ -99,7 +99,7 @@ Current CPU usage: ____%
 Find how much RAM is currently in use, out of your total installed RAM (the same total you looked up in Part A).
 
 ```
-RAM in use: ____   out of total: ____
+RAM in use: 1.1 GB   out of total: 4.7 GB
 ```
 
 ### Step 6 — List Five Running Processes
@@ -121,11 +121,12 @@ List five processes running right now. For each, write your best guess at what i
 | launchd | Mac | The very first process Mac starts — manages and launches other background services |
 
 ```
-1. Process name: __________   What I think it does: __________
-2. Process name: __________   What I think it does: __________
-3. Process name: __________   What I think it does: __________
-4. Process name: __________   What I think it does: __________
-5. Process name: __________   What I think it does: __________
+1.  Process name: Google Chrome -  What I think it does: app that is used to surf the internet
+2.  Process name: Notepad - What I think it does: word processor
+3.  Process name: Task Manager - What I think it does: shows what programs are currently running
+4. Process name: Phone Link - What I think it does: shares the information in my cellphone with my laptop
+5. Process name: Windows Command Processor - What I think it does: process commands that show system information
+
 ```
 
 ### Step 7 — Screenshot and Embed
