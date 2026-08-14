@@ -1,1 +1,1 @@
-Screenshots for Week 4 labs
+Screenshots for Week 4 labs.
