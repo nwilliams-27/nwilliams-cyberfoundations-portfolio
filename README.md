@@ -1,4 +1,4 @@
-# CyberVisionaries Institute (CVI) — Cyber Foundations Student Portfolio
+# CyberVisionaries Institute (CVI) - Cyber Foundations Student Portfolio
 
 **New here? Read [START-HERE.md](START-HERE.md) first — it walks you through your very first commit, step by step.**
 
