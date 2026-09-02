@@ -8,7 +8,7 @@ This is your working portfolio — **not the instructor repository.** All lesson
 
 New to GitHub in general (not just this repo)? See the [CVI GitHub Handbook](https://github.com/CyberVisionariesInstitute/cvi-github-handbook) for accounts, key terms, and how templates work.
 
-## 1. Repository Purpose
+## 1. Repository Purpose Hands On Learning
 
 This repository is:
 
