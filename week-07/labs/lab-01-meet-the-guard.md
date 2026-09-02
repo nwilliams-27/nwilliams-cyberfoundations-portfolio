@@ -8,7 +8,7 @@
 **Submission Path:** `week-07/labs/lab-01-meet-the-guard.md`
 
 > ## Cloud Heights Protected-Rules Safety Rule
-> The baseline rules at priorities **100** (`allow-ssh-from-bastion`), **110** (`allow-icmp-intra-vnet`), and **120** (`deny-ssh-student-subnet`) are protected. **Never modify, delete, replace, or use them as troubleshooting targets.** Create or edit student rules only in priorities **200–999**. A mistake in your student range is recoverable and is not a grading penalty when you diagnose it honestly.
+> Four baseline rules are protected: **100** (`allow-ssh-from-bastion`), **110** (`allow-icmp-intra-vnet`), **120** (`deny-ssh-student-subnet`), and **1000** (`deny-tcp8080-student-subnet` — Inbound Deny TCP from `10.60.6.0/26` to port `8080`). **You never modify, delete, replace, or use a protected rule as a troubleshooting target.** Create or edit student rules only in priorities **200–999**. The priority **1000** fallback deny sits after your band on purpose, so a narrower Allow you create in 200–999 is evaluated first. A mistake in your student range is recoverable and is not a grading penalty when you diagnose it honestly.
 
 > **Evidence safety:** Never include a Cloud Heights password or Bastion shareable URL. Crop browser address bars and login information before committing screenshots.
 
@@ -28,14 +28,14 @@ A network security rule is a decision about traffic. Rules are evaluated from th
 |---|---|
 | Environment | My Lab Environment → Cloud Heights → Security Rules |
 | Change level | Read-only; do not add, edit, or delete rules |
-| Expected protected rules | 100 `allow-ssh-from-bastion`; 110 `allow-icmp-intra-vnet`; 120 `deny-ssh-student-subnet` |
+| Expected protected rules | 100 `allow-ssh-from-bastion`; 110 `allow-icmp-intra-vnet`; 120 `deny-ssh-student-subnet`; 1000 `deny-tcp8080-student-subnet` |
 | Time | 15–20 minutes |
 
 - [x] I am using my assigned `cf-student-XX` VM through the CyberFoundations Lab Portal.
 
 - [x] The VM shows **Running**.
 
-- [x] I can identify the three protected baseline rules at priorities 100, 110, and 120.
+- [x] I can identify the four protected baseline rules at priorities 100, 110, 120, and 1000.
 
 - [x] I understand that my editable priority range is 200–999.
 
@@ -55,7 +55,9 @@ A course environment would protect its access and safety rules from student edit
 
 ### Step 1 — Open the Guard Post
 
-In **My Lab Environment**, open your Cloud Heights controls and find **Security Rules**. Do not use the Azure Portal.
+Start your VM from **My Lab Environment** first. The **Live Azure lab** card is only a launcher — all rule work happens in the Lab Portal's **Security Rules** panel. Do not work in the Azure Portal.
+
+In Cloud Heights, scroll **below** the yellow *Protected rules — do not modify* summary to the detailed list headed **INBOUND — EVALUATION ORDER**. That detailed list, not the yellow summary, is what you inventory and capture.
 
 ### Step 2 — Inventory the Baseline
 
@@ -92,17 +94,17 @@ Priority -> When multiple rules apply, which rule gets evaluated first?
 
 ## Stop & Check
 
-- Can you edit a protected rule? You should not be able to.
+- Can you edit a protected rule? You should not be able to — all four are locked.
 - Where may student rules be created? Priorities 200–999.
 - Which value is read first: 200 or 900? The lower number, 200.
 
 ## Test
 
-This is a read-only lab. Your test is visual verification: confirm the three protected rules remain present and that no student rule was created.
+This is a read-only lab: do not add, edit, or delete any rule. Your test is visual verification — confirm all four protected rules remain present and that no student rule was created.
 
 ## Capture Evidence
 
-Capture the complete visible baseline rule list. If it does not fit in one image, use two clearly named images and explain why.
+Capture the detailed **INBOUND — EVALUATION ORDER** view showing all four protected rules (100, 110, 120, 1000) and no student rule. If it does not fit in one image, use two clearly named images and explain why.
 
 ![Security rules baseline — week07-lab01-security-rules-baseline.png](https://raw.githubusercontent.com/nwilliams-27/nwilliams-cyberfoundations-portfolio/refs/heads/main/assets/screenshots/week-07/week07-lab01-security-rules-baseline.png)
 
@@ -152,7 +154,7 @@ Baseline rule 100 allow-ssh-from-bastion protects my current administrative path
 
 - [x] `week07-lab01-security-rules-baseline.png` captured
 
-- [x] Protected priorities 100, 110, and 120 were not changed.
+- [x] Protected priorities 100, 110, 120, and 1000 were not changed.
 
 - [x] I did not create, edit, or delete any security rules during this read-only lab.
 
