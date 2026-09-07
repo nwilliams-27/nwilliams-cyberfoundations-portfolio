@@ -99,7 +99,7 @@ Current CPU usage: 2%
 Find how much RAM is currently in use, out of your total installed RAM (the same total you looked up in Part A).
 
 ```
-RAM in use: 1.1 GB   out of total: 4.7 GB
+RAM in use: 11.68 GB   out of total: 16.0 GB
 ```
 
 ### Step 6 — List Five Running Processes
