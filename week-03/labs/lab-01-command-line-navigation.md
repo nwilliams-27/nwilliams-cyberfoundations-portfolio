@@ -188,7 +188,7 @@ The help text told me that grep searches for patterns in each file and will show
 Look at the path `pwd` (or `Get-Location`) printed in Part A, Step 1. Is it written in Windows style or Linux style, and how do you know? Reference at least one specific detail from Lesson 2 (a drive letter, a slash direction, or the presence of a ~) to support your answer.
 
 ```
-It's written in Linus because it used the / (forward slash).
+It's written in Linus because it used the / (forward slash). It began from a single root directory (forward slash /) instead of a letter drive like C:\ which is a feature of Windows path that we covered in Lesson 2. Lastly, Linux paths use the - shortcut for the home directory which is convention that is specific to Linus systems and not Windows.
 ```
 
 ### Analysis Question 2
@@ -196,12 +196,12 @@ It's written in Linus because it used the / (forward slash).
 In Part B, you ran `pwd`/`Get-Location` right after moving with `cd`, more than once. Explain why that "move, then check" habit matters, especially while you're still building confidence with the command line.
 
 ```
-The move, then check is a part of the "defenders Golden Rule" and the habit matters especially while I'm still building confidence because it immediately catches one wrong move before a second or third move causes confusion.
+The move, then check is a part of the "defenders Golden Rule" and the habit matters especially while I'm still building confidence because it immediately catches one wrong move before a second or third move causes confusion. Running additional commands from an unexpected location can turn one error into several errors. Move then check is a reliable habit to build because it verifies that the command works as expected instead of assuming it worked because an error message didn't appear.
 ```
 
 ### Analysis Question 3
 
-In Part C, you looked up a command you'd never used before, instead of guessing or skipping it. Explain why this habit — asking the terminal for help instead of memorizing everything in advance — matters for a real career in IT or cybersecurity.
+Looking up a command instead of guessing is a way to ensure that I understand what the command does before running it which is very important because some commands can make real, harmful changes if they are used incorrectly. Building the habit of checking first, instead of assuming is safer and more reliable than trying to rely on memory alone, especially when working with permissions or on a security sensitive system. Therefore, asking the terminal for help is an important habit because during my cybersecurity career I may not have every command memorized and if I guess a command I may break something or miss something important.
 
 ```
 Asking the terminal for help is an important habit because during my cybersecurity career I may not have every command memorized and if I guess a command I may break something or miss something important.
