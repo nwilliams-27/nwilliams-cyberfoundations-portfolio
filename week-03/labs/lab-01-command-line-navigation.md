@@ -1,6 +1,6 @@
 # Week 3 Lab — Navigate Your First File System (CLI Simulator)
 
-**Student Name:** Na'Ketta Williams
+**Student Name:** N. Williams
 
 **Date Completed:** August 2, 2026
 
