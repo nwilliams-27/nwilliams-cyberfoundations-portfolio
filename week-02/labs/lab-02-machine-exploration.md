@@ -1,6 +1,6 @@
 # Week 2 Lab — Explore Your Own Machine (Real Specs & Live Activity)
 
-**Student Name:** Na'Ketta Williams
+**Student Name:** N. Williams
 
 **Date Completed:** July 26, 2026
 
