@@ -1,6 +1,6 @@
 # Week 2 Lab 01 — Cybersecurity Landscape & Digital Infrastructure Overview
 
-**Student Name:** Na'Ketta Williams
+**Student Name:** N. Williams
 
 **Date Completed:** July 26, 2026
 
