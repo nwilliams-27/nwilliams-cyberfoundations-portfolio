@@ -137,26 +137,27 @@ Do not submit unless both required evidence moments succeeded.
 ```text
 This lab demonstrates confidentiality by showing that once a file has been encrypted, the contents become unreadable to anyone without the correct pass phrase, even if the file is intercepted. By inspecting the encrypted data as bytes and seeing no resemblance to the original data it was confirmed that the encryption successfully hid the meaning of the content. The encryption process does not prevent deletion because it only protects what is inside of the file. Encryption does nothing to stop a person with access to the file from deleting or destroying the file in its entirety because reading the data is not required in order to delete it. 
 
-Analysis Questions
-
-Why can an encrypted file still be copied or deleted?
-
-An encrypted file can still be copied or deleted because encryption only protects the content that is inside of the file. Encryption does nothing to control basic file system operations such as copying or deleting because reading or understanding the contents of the file is not required in order to perform those operations. The confidentiality of the file and the accessibility to the file are separate concerns that are handled by different mechanisms. Encryption addresses the confidentiality and file permissions and access control the accessibility. This is why someone with access to the file can copy or delete an encrypted file just as easy as they can copy or delete and unencrypted file without ever being able to read its contents.
-
-What job did the passphrase perform?
-
-The passphrase served as the secret key that was needed to encrypt and later decrypt the file, which controlled access to the readable content of the file. Without the correct passphrase data will remain unreadable because encryption is used to scramble and reverse the scrambling of the original data. The job of the passphrase was to enforce confidentiality which ensures the only someone who knows the pass phrase can recover the original, readable version of the file.
-
-Why does the match test prove correct recovery but not prove who handled the file?
-
-The match test proved correct recovery because it confirmed that the encrypted file was identical to the original file, which proves the encryption and decryption process worked properly without corrupting or altering the data. However, the test only verified the contents of the file itself, it said nothing about ho performed the encryption, decryption or who handled the file at any point during the process. Proving identity or or accounting for who touched the file requires separate evidence such as access logs or audit records because a successful content match alone does not identify the person that's responsible for any step.
 ```
 
 ## Analysis Questions
 
 1. Why can an encrypted file still be copied or deleted?
+
+```text
+An encrypted file can still be copied or deleted because encryption only protects the content that is inside of the file. Encryption does nothing to control basic file system operations such as copying or deleting because reading or understanding the contents of the file is not required in order to perform those operations. The confidentiality of the file and the accessibility to the file are separate concerns that are handled by different mechanisms. Encryption addresses the confidentiality and file permissions and access control the accessibility. This is why someone with access to the file can copy or delete an encrypted file just as easy as they can copy or delete and unencrypted file without ever being able to read its contents.
+```
+
 2. What job did the passphrase perform?
+
+```text
+The passphrase served as the secret key that was needed to encrypt and later decrypt the file, which controlled access to the readable content of the file. Without the correct passphrase data will remain unreadable because encryption is used to scramble and reverse the scrambling of the original data. The job of the passphrase was to enforce confidentiality which ensures the only someone who knows the pass phrase can recover the original, readable version of the file.
+```
+
 3. Why does the match test prove correct recovery but not prove who handled the file?
+
+```text
+The match test proved correct recovery because it confirmed that the encrypted file was identical to the original file, which proves the encryption and decryption process worked properly without corrupting or altering the data. However, the test only verified the contents of the file itself, it said nothing about ho performed the encryption, decryption or who handled the file at any point during the process. Proving identity or or accounting for who touched the file requires separate evidence such as access logs or audit records because a successful content match alone does not identify the person that's responsible for any step.
+```
 
 ## Required Evidence
 
