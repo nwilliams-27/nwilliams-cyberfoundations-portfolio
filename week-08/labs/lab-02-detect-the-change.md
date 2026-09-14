@@ -118,27 +118,28 @@ Run `tail -n 3 hashes/incident-report-modified.txt`. If the Review Note is missi
 ```text
 The mismatch in the SHA-256 digests proves that the content in the file was modified in some way because every altered character or added line produced a different hash. It does not prove exactly what in the file was changed because the hash itself gives no details about the content, location or nature of the modification. Lastly, it does not prove who made the change or when the change occurred because a hash mismatch only confirms that there is a difference between the two versions of the file and not any information about the circumstances surrounding the change.
 
-Analysis Questions
-
-What does the different SHA-256 value prove?
-
-The different SHA-256 value proves that the content of the file has been modified in some way from its original state. No matter how small the change is, a single character or line modification for example, the hash output will be completely different. This is confirmation that integrity was broken and the file is no longer identical to the original version that the hash represented. It also serves as reliable evidence that a change has occurred, even without you knowing exactly what the change was.
-
-Why does the mismatch not identify the person who changed the file?
-
-The mismatch does not identify the person who changed the file because the hash mismatch only indicates that there is a difference in the file's content. It contains no information about who made the change, when it happened or how it was done. In order for the person responsible for making the change to be identified separate evidence such as system access logs, time stamps or audit records tied to a specific user account are required. The hash itself is a fingerprint of the content and not a record of activity or identity.
-
-Why does hashing not protect confidentiality?
-
-Hashing does not protect confidentiality because a hash is only a one way fingerprint that is used to verify integrity . It is not a way to hide or scramble the contents of the file. Anyone with access to the original file will be able to read it's contents in plain form, whether or not a hash has been generated for it. In order to protect confidentiality encryption is required because it transforms the readable data into unreadable data, which is a completely different function from hashing because hashing only detects if data has been changed.
-
 ```
 
 ## Analysis Questions
 
 1. What does the different SHA-256 value prove?
+
+```text
+The different SHA-256 value proves that the content of the file has been modified in some way from its original state. No matter how small the change is, a single character or line modification for example, the hash output will be completely different. This is confirmation that integrity was broken and the file is no longer identical to the original version that the hash represented. It also serves as reliable evidence that a change has occurred, even without you knowing exactly what the change was.
+```
+
 2. Why does the mismatch not identify the person who changed the file?
+
+```text
+The mismatch does not identify the person who changed the file because the hash mismatch only indicates that there is a difference in the file's content. It contains no information about who made the change, when it happened or how it was done. In order for the person responsible for making the change to be identified separate evidence such as system access logs, time stamps or audit records tied to a specific user account are required. The hash itself is a fingerprint of the content and not a record of activity or identity.
+```
+
 3. Why does hashing not protect confidentiality?
+
+```text
+Hashing does not protect confidentiality because a hash is only a one way fingerprint that is used to verify integrity . It is not a way to hide or scramble the contents of the file. Anyone with access to the original file will be able to read it's contents in plain form, whether or not a hash has been generated for it. In order to protect confidentiality encryption is required because it transforms the readable data into unreadable data, which is a completely different function from hashing because hashing only detects if data has been changed.
+
+```
 
 ## Required Evidence
 
