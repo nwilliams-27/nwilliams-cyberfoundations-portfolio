@@ -113,26 +113,28 @@ Do not run `cat`, `head`, `tail`, `less`, or `nano` on `~/.ssh/week8_analyst_ed2
 ```text
 The public key file can be shared freely, copied or distributed to others because it poses no security risk even if it is obtained by someone else. The purpose of the public key is to be given out so that others can verify identity or grant access. The private key file must strictly be kept confidential , never shared, copied insecurely or exposed in any screenshot or submission because anyone who obtains it can personate you or gain unauthorized access. The passphrase adds an additional layer of protection for the private key and requires it to be entered before the key can be used, so even if the private key file were lost, stolen or exposed, it still can't be used without knowing the passphrase. Therefore, the security of the private key depends on two types of protection, keeping the file secret and keeping the passphrase secret.
 
-Analysis Questions
-
-Why can the public key be distributed while the private key must remain protected?
-
-The public key is designed to be shared because it is mathematically related to the private key in a way that allows others to verify identity or grant access without ever having the capabilities to derive the private key from it. The private key has to always remain protected because it is the actual secret that has the ability to prove identity and anyone who obtains it can impersonate you or gain unauthorized access to anything that is secured by the key pair. This asymmetric design is the foundation of public key cryptography and allows secure identification and access without needing to share sensitive data.
-
-How is the key passphrase different from the analyst account password?
-
-The key passphrase different from the analyst account password because it specifically protects the private file and requires it to be entered before the key can be used for authentication elsewhere, such as connecting to another system via SSH. While the analyst account password authenticates a user to gain access into the operating system and this controls access at the account level.
- 
-Why did you use a unique Week 8 filename?
-
-Using a unique Week 8 filename prevented accidentally writing over a previous key that may still be needed or referenced later. It also keeps the cryptographic materials for the assignments clearly organized and identifiable. This avoids any confusion that may surround which key belongs to which specific exercise. This is a practice that reflects good key management hygiene because reusing the same filename repeatedly can lead to mistakes, especially when multiple keys have to be tracked and distinguished from one another over time.
 ```
 
 ## Analysis Questions
 
 1. Why can the public key be distributed while the private key must remain protected?
+
+```text
+
+The public key is designed to be shared because it is mathematically related to the private key in a way that allows others to verify identity or grant access without ever having the capabilities to derive the private key from it. The private key has to always remain protected because it is the actual secret that has the ability to prove identity and anyone who obtains it can impersonate you or gain unauthorized access to anything that is secured by the key pair. This asymmetric design is the foundation of public key cryptography and allows secure identification and access without needing to share sensitive data.
+```
+
 2. How is the key passphrase different from the `analyst` account password?
+
+```text
+The key passphrase different from the analyst account password because it specifically protects the private file and requires it to be entered before the key can be used for authentication elsewhere, such as connecting to another system via SSH. While the analyst account password authenticates a user to gain access into the operating system and this controls access at the account level.
+```
+
 3. Why did you use a unique Week 8 filename?
+
+```text
+Using a unique Week 8 filename prevented accidentally writing over a previous key that may still be needed or referenced later. It also keeps the cryptographic materials for the assignments clearly organized and identifiable. This avoids any confusion that may surround which key belongs to which specific exercise. This is a practice that reflects good key management hygiene because reusing the same filename repeatedly can lead to mistakes, especially when multiple keys have to be tracked and distinguished from one another over time.
+```
 
 ## Required Evidence
 
