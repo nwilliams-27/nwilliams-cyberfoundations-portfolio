@@ -162,7 +162,7 @@ Two numbers in that output tell the story. **Packet loss** tells you whether the
 How many packets you sent, how many came back, and the typical round-trip time:
 
 ```
-4 packets were sent, 4 packets came back and the typical turn around time was 3005ms.
+4 packets were sent, 4 packets came back and the typical turn around time was 1.150.
 ```
 
 ### Step 3 — Ping a Machine by Name
@@ -196,7 +196,7 @@ Look at the very first line of your Step 3 output. You typed a *name*, but ping 
 The number ping showed for `foundry-archive.grid.local`, and its packet loss and latency:
 
 ```
-10.20.5.20 0% packet loss, latency 3005 ms
+10.20.5.20 0% packet loss, latency 2.150
 ```
 
 ---
