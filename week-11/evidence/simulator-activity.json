@@ -1,0 +1,4291 @@
+{
+  "source": "LIVE — your simulated activity (fictional)",
+  "signins": [
+    {
+      "id": "LS-34C82D-1-1",
+      "raw": {
+        "user": "blair@cvi-training.example",
+        "reason": "accepted",
+        "outcome": "success",
+        "event_id": "LS-34C82D-1-1",
+        "time_utc": "2026-09-28T13:01:00Z",
+        "device_id": "managed-blair",
+        "source_ip": "192.0.2.11",
+        "mfa_detail": "challenged_now",
+        "application": "CaseDesk",
+        "correlation_id": "LC-34C82D-1",
+        "scenario_location": "Office-A",
+        "authentication_method": "password_plus_mfa"
+      },
+      "seq": 1,
+      "account": "cl-blair"
+    },
+    {
+      "id": "LS-34C82D-15-1",
+      "raw": {
+        "user": "jamie@ad.cloudheights.example",
+        "reason": "CREDENTIAL_CHANGE_REQUIRED",
+        "outcome": "challenge",
+        "event_id": "LS-34C82D-15-1",
+        "time_utc": "2026-09-28T13:15:00Z",
+        "device_id": "managed-jamie",
+        "source_ip": "192.0.2.16",
+        "mfa_detail": "not_recorded",
+        "application": "AD-Logon (simulated)",
+        "correlation_id": "LC-34C82D-15",
+        "scenario_location": "Office-A",
+        "authentication_method": "password"
+      },
+      "seq": 15,
+      "account": "ad-jamie"
+    },
+    {
+      "id": "LS-34C82D-17-1",
+      "raw": {
+        "user": "jamie@ad.cloudheights.example",
+        "reason": "accepted",
+        "outcome": "success",
+        "event_id": "LS-34C82D-17-1",
+        "time_utc": "2026-09-28T13:17:00Z",
+        "device_id": "managed-jamie",
+        "source_ip": "192.0.2.16",
+        "mfa_detail": "not_recorded",
+        "application": "AD-Logon (simulated)",
+        "correlation_id": "LC-34C82D-17",
+        "scenario_location": "Office-A",
+        "authentication_method": "password"
+      },
+      "seq": 17,
+      "account": "ad-jamie"
+    },
+    {
+      "id": "LS-34C82D-20-1",
+      "raw": {
+        "user": "jamie@ad.cloudheights.example",
+        "reason": "ACCOUNT_DISABLED",
+        "outcome": "failure",
+        "event_id": "LS-34C82D-20-1",
+        "time_utc": "2026-09-28T13:20:00Z",
+        "device_id": "managed-jamie",
+        "source_ip": "192.0.2.16",
+        "mfa_detail": "not_recorded",
+        "application": "AD-Logon (simulated)",
+        "correlation_id": "LC-34C82D-20",
+        "scenario_location": "Office-A",
+        "authentication_method": "password"
+      },
+      "seq": 20,
+      "account": "ad-jamie"
+    },
+    {
+      "id": "LS-34C82D-23-1",
+      "raw": {
+        "user": "jamie@ad.cloudheights.example",
+        "reason": "accepted",
+        "outcome": "success",
+        "event_id": "LS-34C82D-23-1",
+        "time_utc": "2026-09-28T13:23:00Z",
+        "device_id": "managed-jamie",
+        "source_ip": "192.0.2.16",
+        "mfa_detail": "not_recorded",
+        "application": "AD-Logon (simulated)",
+        "correlation_id": "LC-34C82D-23",
+        "scenario_location": "Office-A",
+        "authentication_method": "password"
+      },
+      "seq": 23,
+      "account": "ad-jamie"
+    },
+    {
+      "id": "LS-34C82D-31-1",
+      "raw": {
+        "user": "blair@cvi-training.example",
+        "reason": "accepted",
+        "outcome": "success",
+        "event_id": "LS-34C82D-31-1",
+        "time_utc": "2026-09-28T13:31:00Z",
+        "device_id": "managed-blair",
+        "source_ip": "192.0.2.11",
+        "mfa_detail": "challenged_now",
+        "application": "CaseDesk",
+        "correlation_id": "LC-34C82D-31",
+        "scenario_location": "Office-A",
+        "authentication_method": "password_plus_mfa"
+      },
+      "seq": 31,
+      "account": "cl-blair"
+    },
+    {
+      "id": "LS-34C82D-34-1",
+      "raw": {
+        "user": "casey@cvi-training.example",
+        "reason": "accepted",
+        "outcome": "success",
+        "event_id": "LS-34C82D-34-1",
+        "time_utc": "2026-09-28T13:34:00Z",
+        "device_id": "managed-casey",
+        "source_ip": "192.0.2.12",
+        "mfa_detail": "challenged_now",
+        "application": "CaseDesk",
+        "correlation_id": "LC-34C82D-34",
+        "scenario_location": "Office-A",
+        "authentication_method": "password_plus_mfa"
+      },
+      "seq": 34,
+      "account": "cl-casey"
+    },
+    {
+      "id": "LS-34C82D-39-1",
+      "raw": {
+        "user": "emi@cvi-training.example",
+        "reason": "accepted",
+        "outcome": "success",
+        "event_id": "LS-34C82D-39-1",
+        "time_utc": "2026-09-28T13:39:00Z",
+        "device_id": "managed-emi",
+        "source_ip": "192.0.2.13",
+        "mfa_detail": "challenged_now",
+        "application": "CaseDesk",
+        "correlation_id": "LC-34C82D-39",
+        "scenario_location": "Office-A",
+        "authentication_method": "password_plus_mfa"
+      },
+      "seq": 39,
+      "account": "cl-emi"
+    },
+    {
+      "id": "LS-34C82D-47-1",
+      "raw": {
+        "user": "casey@cvi-training.example",
+        "reason": "accepted",
+        "outcome": "success",
+        "event_id": "LS-34C82D-47-1",
+        "time_utc": "2026-09-28T13:47:00Z",
+        "device_id": "managed-casey",
+        "source_ip": "192.0.2.12",
+        "mfa_detail": "challenged_now",
+        "application": "CaseDesk",
+        "correlation_id": "LC-34C82D-47",
+        "scenario_location": "Office-A",
+        "authentication_method": "password_plus_mfa"
+      },
+      "seq": 47,
+      "account": "cl-casey"
+    },
+    {
+      "id": "LS-34C82D-74-1",
+      "raw": {
+        "user": "jamie@cvi-training.example",
+        "reason": "CREDENTIAL_CHANGE_REQUIRED",
+        "outcome": "challenge",
+        "event_id": "LS-34C82D-74-1",
+        "time_utc": "2026-09-28T14:14:00Z",
+        "device_id": "managed-jamie",
+        "source_ip": "192.0.2.16",
+        "mfa_detail": "not_recorded",
+        "application": "CaseDesk",
+        "correlation_id": "LC-34C82D-74",
+        "scenario_location": "Office-A",
+        "authentication_method": "password"
+      },
+      "seq": 74,
+      "account": "cl-jamie"
+    },
+    {
+      "id": "LS-34C82D-76-1",
+      "raw": {
+        "user": "jamie@cvi-training.example",
+        "reason": "accepted",
+        "outcome": "success",
+        "event_id": "LS-34C82D-76-1",
+        "time_utc": "2026-09-28T14:16:00Z",
+        "device_id": "managed-jamie",
+        "source_ip": "192.0.2.16",
+        "mfa_detail": "challenged_now",
+        "application": "CaseDesk",
+        "correlation_id": "LC-34C82D-76",
+        "scenario_location": "Office-A",
+        "authentication_method": "password_plus_mfa"
+      },
+      "seq": 76,
+      "account": "cl-jamie"
+    },
+    {
+      "id": "LS-34C82D-82-1",
+      "raw": {
+        "user": "alex@ad.cloudheights.example",
+        "reason": "accepted",
+        "outcome": "success",
+        "event_id": "LS-34C82D-82-1",
+        "time_utc": "2026-09-28T14:22:00Z",
+        "device_id": "managed-alex",
+        "source_ip": "192.0.2.10",
+        "mfa_detail": "not_recorded",
+        "application": "AD-Logon (simulated)",
+        "correlation_id": "LC-34C82D-82",
+        "scenario_location": "Office-A",
+        "authentication_method": "password"
+      },
+      "seq": 82,
+      "account": "ad-alex"
+    },
+    {
+      "id": "LS-34C82D-84-1",
+      "raw": {
+        "user": "alex@cvi-training.example",
+        "reason": "accepted",
+        "outcome": "success",
+        "event_id": "LS-34C82D-84-1",
+        "time_utc": "2026-09-28T14:24:00Z",
+        "device_id": "managed-alex",
+        "source_ip": "192.0.2.10",
+        "mfa_detail": "challenged_now",
+        "application": "CaseDesk",
+        "correlation_id": "LC-34C82D-84",
+        "scenario_location": "Office-A",
+        "authentication_method": "password_plus_mfa"
+      },
+      "seq": 84,
+      "account": "cl-alex"
+    },
+    {
+      "id": "LS-34C82D-90-1",
+      "raw": {
+        "user": "alex@ad.cloudheights.example",
+        "reason": "accepted",
+        "outcome": "success",
+        "event_id": "LS-34C82D-90-1",
+        "time_utc": "2026-09-28T14:30:00Z",
+        "device_id": "managed-alex",
+        "source_ip": "192.0.2.10",
+        "mfa_detail": "not_recorded",
+        "application": "AD-Logon (simulated)",
+        "correlation_id": "LC-34C82D-90",
+        "scenario_location": "Office-A",
+        "authentication_method": "password"
+      },
+      "seq": 90,
+      "account": "ad-alex"
+    },
+    {
+      "id": "LS-34C82D-96-1",
+      "raw": {
+        "user": "alex@cvi-training.example",
+        "reason": "accepted",
+        "outcome": "success",
+        "event_id": "LS-34C82D-96-1",
+        "time_utc": "2026-09-28T14:36:00Z",
+        "device_id": "managed-alex",
+        "source_ip": "192.0.2.10",
+        "mfa_detail": "challenged_now",
+        "application": "CaseDesk",
+        "correlation_id": "LC-34C82D-96",
+        "scenario_location": "Office-A",
+        "authentication_method": "password_plus_mfa"
+      },
+      "seq": 96,
+      "account": "cl-alex"
+    },
+    {
+      "id": "LS-34C82D-100-1",
+      "raw": {
+        "user": "finley@cvi-training.example",
+        "reason": "accepted",
+        "outcome": "success",
+        "event_id": "LS-34C82D-100-1",
+        "time_utc": "2026-09-28T14:40:00Z",
+        "device_id": "managed-finley",
+        "source_ip": "192.0.2.14",
+        "mfa_detail": "challenged_now",
+        "application": "CaseDesk",
+        "correlation_id": "LC-34C82D-100",
+        "scenario_location": "Office-A",
+        "authentication_method": "password_plus_mfa"
+      },
+      "seq": 100,
+      "account": "cl-finley"
+    },
+    {
+      "id": "LS-34C82D-111-1",
+      "raw": {
+        "user": "finley@cvi-training.example",
+        "reason": "ACCOUNT_DISABLED",
+        "outcome": "failure",
+        "event_id": "LS-34C82D-111-1",
+        "time_utc": "2026-09-28T14:51:00Z",
+        "device_id": "managed-finley",
+        "source_ip": "192.0.2.14",
+        "mfa_detail": "not_recorded",
+        "application": "CaseDesk",
+        "correlation_id": "LC-34C82D-111",
+        "scenario_location": "Office-A",
+        "authentication_method": "password"
+      },
+      "seq": 111,
+      "account": "cl-finley"
+    },
+    {
+      "id": "LS-34C82D-117-1",
+      "raw": {
+        "user": "blair@cvi-training.example",
+        "reason": "accepted",
+        "outcome": "success",
+        "event_id": "LS-34C82D-117-1",
+        "time_utc": "2026-09-28T14:57:00Z",
+        "device_id": "managed-blair",
+        "source_ip": "192.0.2.11",
+        "mfa_detail": "challenged_now",
+        "application": "CaseDesk",
+        "correlation_id": "LC-34C82D-117",
+        "scenario_location": "Office-A",
+        "authentication_method": "password_plus_mfa"
+      },
+      "seq": 117,
+      "account": "cl-blair"
+    },
+    {
+      "id": "LS-34C82D-123-1",
+      "raw": {
+        "user": "alex@ad.cloudheights.example",
+        "reason": "accepted",
+        "outcome": "success",
+        "event_id": "LS-34C82D-123-1",
+        "time_utc": "2026-09-28T15:03:00Z",
+        "device_id": "managed-alex",
+        "source_ip": "192.0.2.10",
+        "mfa_detail": "not_recorded",
+        "application": "AD-Logon (simulated)",
+        "correlation_id": "LC-34C82D-123",
+        "scenario_location": "Office-A",
+        "authentication_method": "password"
+      },
+      "seq": 123,
+      "account": "ad-alex"
+    },
+    {
+      "id": "LS-34C82D-124-1",
+      "raw": {
+        "user": "alex@cvi-training.example",
+        "reason": "accepted",
+        "outcome": "success",
+        "event_id": "LS-34C82D-124-1",
+        "time_utc": "2026-09-28T15:04:00Z",
+        "device_id": "managed-alex",
+        "source_ip": "192.0.2.10",
+        "mfa_detail": "challenged_now",
+        "application": "CaseDesk",
+        "correlation_id": "LC-34C82D-124",
+        "scenario_location": "Office-A",
+        "authentication_method": "password_plus_mfa"
+      },
+      "seq": 124,
+      "account": "cl-alex"
+    },
+    {
+      "id": "LS-34C82D-127-1",
+      "raw": {
+        "user": "alex@ad.cloudheights.example",
+        "reason": "accepted",
+        "outcome": "success",
+        "event_id": "LS-34C82D-127-1",
+        "time_utc": "2026-09-28T15:07:00Z",
+        "device_id": "managed-alex",
+        "source_ip": "192.0.2.10",
+        "mfa_detail": "not_recorded",
+        "application": "AD-Logon (simulated)",
+        "correlation_id": "LC-34C82D-127",
+        "scenario_location": "Office-A",
+        "authentication_method": "password"
+      },
+      "seq": 127,
+      "account": "ad-alex"
+    },
+    {
+      "id": "LS-34C82D-133-1",
+      "raw": {
+        "user": "finley@cvi-training.example",
+        "reason": "ACCOUNT_DISABLED",
+        "outcome": "failure",
+        "event_id": "LS-34C82D-133-1",
+        "time_utc": "2026-09-28T15:13:00Z",
+        "device_id": "managed-finley",
+        "source_ip": "192.0.2.14",
+        "mfa_detail": "not_recorded",
+        "application": "CaseDesk",
+        "correlation_id": "LC-34C82D-133",
+        "scenario_location": "Office-A",
+        "authentication_method": "password"
+      },
+      "seq": 133,
+      "account": "cl-finley"
+    }
+  ],
+  "audits": [
+    {
+      "id": "LA-34C82D-2-2",
+      "seq": 2,
+      "time": "2026-09-28T13:02:00Z",
+      "after": {
+        "mode": "current-access",
+        "test": "AT-34C82D-2-1",
+        "action": "read",
+        "account": "cl-blair",
+        "reasons": [
+          "ALLOW"
+        ],
+        "decision": "allow"
+      },
+      "before": null,
+      "result": "accepted",
+      "target": "R-LAND",
+      "ticket": null,
+      "changed": [],
+      "activity": "access_test",
+      "actorKind": "learner",
+      "targetType": "resource",
+      "correlation": "LC-34C82D-2"
+    },
+    {
+      "id": "LA-34C82D-3-2",
+      "seq": 3,
+      "time": "2026-09-28T13:03:00Z",
+      "after": {
+        "mode": "current-access",
+        "test": "AT-34C82D-3-1",
+        "action": "read",
+        "account": "cl-blair",
+        "reasons": [
+          "NO_MATCHING_GRANT"
+        ],
+        "decision": "deny"
+      },
+      "before": null,
+      "result": "accepted",
+      "target": "R-CASE",
+      "ticket": null,
+      "changed": [],
+      "activity": "access_test",
+      "actorKind": "learner",
+      "targetType": "resource",
+      "correlation": "LC-34C82D-3"
+    },
+    {
+      "id": "LA-34C82D-4-2",
+      "seq": 4,
+      "time": "2026-09-28T13:04:00Z",
+      "after": {
+        "mode": "current-access",
+        "test": "AT-34C82D-4-1",
+        "action": "update",
+        "account": "cl-blair",
+        "reasons": [
+          "NO_MATCHING_GRANT"
+        ],
+        "decision": "deny"
+      },
+      "before": null,
+      "result": "accepted",
+      "target": "R-CASE",
+      "ticket": null,
+      "changed": [],
+      "activity": "access_test",
+      "actorKind": "learner",
+      "targetType": "resource",
+      "correlation": "LC-34C82D-4"
+    },
+    {
+      "id": "LA-34C82D-5-1",
+      "seq": 5,
+      "time": "2026-09-28T13:05:00Z",
+      "after": [
+        "GC-JUN",
+        "GC-READ"
+      ],
+      "before": [
+        "GC-JUN"
+      ],
+      "reason": "T201: approved read-only Case Summaries access for cl-blair.",
+      "result": "accepted",
+      "target": "cl-blair",
+      "ticket": "T201",
+      "changed": [
+        "memberships"
+      ],
+      "activity": "group_member_added",
+      "actorKind": "learner",
+      "targetType": "account",
+      "correlation": "LC-34C82D-5"
+    },
+    {
+      "id": "LA-34C82D-6-2",
+      "seq": 6,
+      "time": "2026-09-28T13:06:00Z",
+      "after": {
+        "mode": "current-access",
+        "test": "AT-34C82D-6-1",
+        "action": "read",
+        "account": "cl-blair",
+        "reasons": [
+          "ALLOW"
+        ],
+        "decision": "allow"
+      },
+      "before": null,
+      "result": "accepted",
+      "target": "R-CASE",
+      "ticket": null,
+      "changed": [],
+      "activity": "access_test",
+      "actorKind": "learner",
+      "targetType": "resource",
+      "correlation": "LC-34C82D-6"
+    },
+    {
+      "id": "LA-34C82D-7-2",
+      "seq": 7,
+      "time": "2026-09-28T13:07:00Z",
+      "after": {
+        "mode": "current-access",
+        "test": "AT-34C82D-7-1",
+        "action": "update",
+        "account": "cl-blair",
+        "reasons": [
+          "NO_MATCHING_GRANT"
+        ],
+        "decision": "deny"
+      },
+      "before": null,
+      "result": "accepted",
+      "target": "R-CASE",
+      "ticket": null,
+      "changed": [],
+      "activity": "access_test",
+      "actorKind": "learner",
+      "targetType": "resource",
+      "correlation": "LC-34C82D-7"
+    },
+    {
+      "id": "LA-34C82D-8-1",
+      "seq": 8,
+      "time": "2026-09-28T13:08:00Z",
+      "after": "resolved",
+      "before": "open",
+      "reason": "APP-201 approved read-only Case Summaries access for cl-blair. Editing was not approved and no credential action was requested. Before the change, Blair could sign in but read access on Case Summaries was denied (AT-34C82D-3-1) because there was no grant that matched. I added Blair to Case-Readers under T201. After the change, read access was allowed (AT-34C82D-6-1) and update was denied (AT-34C82D-7-1). I did not change any password or MFA setting and I did not add Blair to Privileged-Operators. The results match APP-201, therefore I am setting the ticket to resolved.",
+      "result": "accepted",
+      "target": "T201",
+      "ticket": "T201",
+      "changed": [
+        "status"
+      ],
+      "activity": "ticket_resolved",
+      "actorKind": "learner",
+      "targetType": "ticket",
+      "correlation": "LC-34C82D-8"
+    },
+    {
+      "id": "LA-34C82D-9-1",
+      "seq": 9,
+      "time": "2026-09-28T13:09:00Z",
+      "after": {
+        "dn": "CN=Jamie Ellis,OU=Support,OU=Staff,DC=ad,DC=cloudheights,DC=example",
+        "ou": "OU-SUP",
+        "dir": "AD",
+        "key": "ad-jamie",
+        "mfa": "not_in_scope",
+        "upn": "jamie@ad.cloudheights.example",
+        "dept": "DEP-SUP",
+        "locked": false,
+        "person": "P08",
+        "status": "disabled",
+        "username": "jamie",
+        "mustChange": true,
+        "failedCount": 0,
+        "securityRevision": 1,
+        "credentialVersion": 1
+      },
+      "before": null,
+      "result": "accepted",
+      "target": "ad-jamie",
+      "ticket": "T301",
+      "changed": [
+        "account"
+      ],
+      "activity": "user_created",
+      "actorKind": "learner",
+      "targetType": "account",
+      "correlation": "LC-34C82D-9"
+    },
+    {
+      "id": "LA-34C82D-10-1",
+      "seq": 10,
+      "time": "2026-09-28T13:10:00Z",
+      "after": [
+        "GA-ALL"
+      ],
+      "before": [],
+      "reason": "T301: basic staff and support team membership for ad-jamie",
+      "result": "accepted",
+      "target": "ad-jamie",
+      "ticket": "T301",
+      "changed": [
+        "memberships"
+      ],
+      "activity": "group_member_added",
+      "actorKind": "learner",
+      "targetType": "account",
+      "correlation": "LC-34C82D-10"
+    },
+    {
+      "id": "LA-34C82D-11-1",
+      "seq": 11,
+      "time": "2026-09-28T13:11:00Z",
+      "after": [
+        "GA-ALL",
+        "GA-SUP"
+      ],
+      "before": [
+        "GA-ALL"
+      ],
+      "reason": "T301: basic staff and support team membership for ad-jamie",
+      "result": "accepted",
+      "target": "ad-jamie",
+      "ticket": "T301",
+      "changed": [
+        "memberships"
+      ],
+      "activity": "group_member_added",
+      "actorKind": "learner",
+      "targetType": "account",
+      "correlation": "LC-34C82D-11"
+    },
+    {
+      "id": "LA-34C82D-12-1",
+      "seq": 12,
+      "time": "2026-09-28T13:12:00Z",
+      "after": {
+        "route": "trusted",
+        "outcome": "passed",
+        "hrIdSupplied": "CH-008"
+      },
+      "before": null,
+      "reason": "Trusted callback and matching HR ID.",
+      "result": "accepted",
+      "target": "ad-jamie",
+      "ticket": "T302",
+      "changed": [
+        "verification"
+      ],
+      "activity": "verification_completed",
+      "actorKind": "learner",
+      "targetType": "ticket",
+      "correlation": "LC-34C82D-12"
+    },
+    {
+      "id": "LA-34C82D-13-1",
+      "seq": 13,
+      "time": "2026-09-28T13:13:00Z",
+      "after": {
+        "locked": false,
+        "mustChange": true,
+        "failedCount": 0,
+        "sessionsRevoked": 0,
+        "securityRevision": 2,
+        "credentialVersion": 2
+      },
+      "before": {
+        "locked": false,
+        "mustChange": true,
+        "failedCount": 0,
+        "securityRevision": 1,
+        "credentialVersion": 1
+      },
+      "result": "accepted",
+      "target": "ad-jamie",
+      "ticket": "T302",
+      "changed": [
+        "credentialVersion",
+        "mustChange",
+        "locked",
+        "failedCount",
+        "securityRevision",
+        "sessions"
+      ],
+      "activity": "password_reset",
+      "actorKind": "learner",
+      "targetType": "account",
+      "correlation": "LC-34C82D-13"
+    },
+    {
+      "id": "LA-34C82D-14-1",
+      "seq": 14,
+      "time": "2026-09-28T13:14:00Z",
+      "after": {
+        "status": "enabled",
+        "sessionsRevoked": 0,
+        "securityRevision": 2
+      },
+      "before": {
+        "status": "disabled",
+        "securityRevision": 2
+      },
+      "reason": "",
+      "result": "accepted",
+      "target": "ad-jamie",
+      "ticket": "T301",
+      "changed": [
+        "status"
+      ],
+      "activity": "account_status_changed",
+      "actorKind": "learner",
+      "targetType": "account",
+      "correlation": "LC-34C82D-14"
+    },
+    {
+      "id": "LA-34C82D-16-1",
+      "seq": 16,
+      "time": "2026-09-28T13:16:00Z",
+      "after": {
+        "mustChange": false,
+        "credentialVersion": 3
+      },
+      "before": {
+        "mustChange": true,
+        "credentialVersion": 2
+      },
+      "result": "accepted",
+      "target": "ad-jamie",
+      "ticket": null,
+      "changed": [
+        "credentialVersion",
+        "mustChange"
+      ],
+      "activity": "credential_changed",
+      "actorKind": "learner",
+      "targetType": "account",
+      "correlation": "LC-34C82D-16"
+    },
+    {
+      "id": "LA-34C82D-18-2",
+      "seq": 18,
+      "time": "2026-09-28T13:18:00Z",
+      "after": {
+        "mode": "current-access",
+        "test": "AT-34C82D-18-1",
+        "action": "read",
+        "account": "ad-jamie",
+        "reasons": [
+          "ALLOW"
+        ],
+        "decision": "allow"
+      },
+      "before": null,
+      "result": "accepted",
+      "target": "R-HAND",
+      "ticket": null,
+      "changed": [],
+      "activity": "access_test",
+      "actorKind": "learner",
+      "targetType": "resource",
+      "correlation": "LC-34C82D-18"
+    },
+    {
+      "id": "LA-34C82D-19-1",
+      "seq": 19,
+      "time": "2026-09-28T13:19:00Z",
+      "after": {
+        "status": "disabled",
+        "sessionsRevoked": 1,
+        "securityRevision": 3
+      },
+      "before": {
+        "status": "enabled",
+        "securityRevision": 2
+      },
+      "reason": "",
+      "result": "accepted",
+      "target": "ad-jamie",
+      "ticket": "T301",
+      "changed": [
+        "status",
+        "securityRevision",
+        "sessions"
+      ],
+      "activity": "account_status_changed",
+      "actorKind": "learner",
+      "targetType": "account",
+      "correlation": "LC-34C82D-19"
+    },
+    {
+      "id": "LA-34C82D-21-2",
+      "seq": 21,
+      "time": "2026-09-28T13:21:00Z",
+      "after": {
+        "mode": "current-access",
+        "test": "AT-34C82D-21-1",
+        "action": "read",
+        "account": "ad-jamie",
+        "reasons": [
+          "ACCOUNT_DISABLED"
+        ],
+        "decision": "deny"
+      },
+      "before": null,
+      "result": "accepted",
+      "target": "R-HAND",
+      "ticket": null,
+      "changed": [],
+      "activity": "access_test",
+      "actorKind": "learner",
+      "targetType": "resource",
+      "correlation": "LC-34C82D-21"
+    },
+    {
+      "id": "LA-34C82D-22-1",
+      "seq": 22,
+      "time": "2026-09-28T13:22:00Z",
+      "after": {
+        "status": "enabled",
+        "sessionsRevoked": 0,
+        "securityRevision": 3
+      },
+      "before": {
+        "status": "disabled",
+        "securityRevision": 3
+      },
+      "reason": "",
+      "result": "accepted",
+      "target": "ad-jamie",
+      "ticket": "T301",
+      "changed": [
+        "status"
+      ],
+      "activity": "account_status_changed",
+      "actorKind": "learner",
+      "targetType": "account",
+      "correlation": "LC-34C82D-22"
+    },
+    {
+      "id": "LA-34C82D-24-2",
+      "seq": 24,
+      "time": "2026-09-28T13:24:00Z",
+      "after": {
+        "mode": "current-access",
+        "test": "AT-34C82D-24-1",
+        "action": "read",
+        "account": "ad-jamie",
+        "reasons": [
+          "ALLOW"
+        ],
+        "decision": "allow"
+      },
+      "before": null,
+      "result": "accepted",
+      "target": "R-HAND",
+      "ticket": null,
+      "changed": [],
+      "activity": "access_test",
+      "actorKind": "learner",
+      "targetType": "resource",
+      "correlation": "LC-34C82D-24"
+    },
+    {
+      "id": "LA-34C82D-25-1",
+      "seq": 25,
+      "time": "2026-09-28T13:25:00Z",
+      "after": "resolved",
+      "before": "open",
+      "reason": "Creating ad-jamie in the Support area with All-Staff and Support-Team membership, Staff Handbook read and enabling under ACT-301 was approved under T301. I created the account in Support (OU-SUP), added the two groups and enabled the account after the T302 credential reset. Next, I ran the disable and re-enable check that ACT-301 permits. Staff Handbook read was ALLOW while enabled, DENY while disabled and ALLOW after the re-enable. All of the changes were logged as accepted under T301 and nothing beyond the approved access was added, so I am setting this ticket to resolved.",
+      "result": "accepted",
+      "target": "T301",
+      "ticket": "T301",
+      "changed": [
+        "status"
+      ],
+      "activity": "ticket_resolved",
+      "actorKind": "learner",
+      "targetType": "ticket",
+      "correlation": "LC-34C82D-25"
+    },
+    {
+      "id": "LA-34C82D-26-1",
+      "seq": 26,
+      "time": "2026-09-28T13:26:00Z",
+      "after": "resolved",
+      "before": "open",
+      "reason": "A credential reset for ad-jamie after an identity verification was approved under T302. There was no password shown or recorded. To complete the verification, I compared HR ID CH-008, used the callback evidence (CB-302) and the verification passed before any change was made. I also reset the credential (version 1 to 2) under T302. Again, no password was set or shown. Afterwards, the simulated credential change at first sign-in (version 2 to 3) was completed. Nothing beyond the approved reset was changed, therefore I am setting this ticket to resolved.",
+      "result": "accepted",
+      "target": "T302",
+      "ticket": "T302",
+      "changed": [
+        "status"
+      ],
+      "activity": "ticket_resolved",
+      "actorKind": "learner",
+      "targetType": "ticket",
+      "correlation": "LC-34C82D-26"
+    },
+    {
+      "id": "LA-34C82D-27-1",
+      "seq": 27,
+      "time": "2026-09-28T13:27:00Z",
+      "after": {
+        "members": [
+          "cl-blair"
+        ],
+        "assignments": [
+          "RL-LAND@R-LAND"
+        ]
+      },
+      "before": null,
+      "reason": "Junior-Analysts holds RL-LAND at R-LAND, giving read access to the landing page only. This matches T401, therefore no change was needed.",
+      "result": "no_op",
+      "target": "GC-JUN",
+      "ticket": null,
+      "changed": [],
+      "activity": "configuration_reviewed",
+      "actorKind": "learner",
+      "targetType": "group",
+      "correlation": "LC-34C82D-27"
+    },
+    {
+      "id": "LA-34C82D-28-1",
+      "seq": 28,
+      "time": "2026-09-28T13:28:00Z",
+      "after": {
+        "members": [
+          "cl-alex"
+        ],
+        "assignments": [
+          "RL-RESP@R-QUEUE",
+          "RL-RESP@R-ABAC"
+        ]
+      },
+      "before": null,
+      "reason": "Response-Operators holds RL-RESP at R-QUEUE and R-ABAC, giving read and update access to the queue and read access to the response note. This matches T402, therefore no change was needed.",
+      "result": "no_op",
+      "target": "GC-RESP",
+      "ticket": null,
+      "changed": [],
+      "activity": "configuration_reviewed",
+      "actorKind": "learner",
+      "targetType": "group",
+      "correlation": "LC-34C82D-28"
+    },
+    {
+      "id": "LA-34C82D-29-1",
+      "seq": 29,
+      "time": "2026-09-28T13:29:00Z",
+      "after": {
+        "members": [],
+        "assignments": [
+          "RL-AUD@R-AUD"
+        ]
+      },
+      "before": null,
+      "reason": "Audit-Reviewers holds RL-AUD at R-AUD, giving read and export access to audit evidence. This matches T403, therefore no change was needed.",
+      "result": "no_op",
+      "target": "GC-AUD",
+      "ticket": null,
+      "changed": [],
+      "activity": "configuration_reviewed",
+      "actorKind": "learner",
+      "targetType": "group",
+      "correlation": "LC-34C82D-29"
+    },
+    {
+      "id": "LA-34C82D-30-1",
+      "seq": 30,
+      "time": "2026-09-28T13:30:00Z",
+      "after": null,
+      "before": {
+        "key": "AS-09",
+        "role": "RL-PRIV",
+        "group": "GC-PRIV",
+        "scope": "R-DIR",
+        "createdSeq": 0
+      },
+      "reason": "I am removing directory administration access from Casey under T402 because the ticket doesn’t approve it.",
+      "result": "accepted",
+      "target": "GC-PRIV",
+      "ticket": "T402",
+      "changed": [
+        "assignments"
+      ],
+      "activity": "role_assignment_changed",
+      "actorKind": "learner",
+      "targetType": "group",
+      "correlation": "LC-34C82D-30"
+    },
+    {
+      "id": "LA-34C82D-32-2",
+      "seq": 32,
+      "time": "2026-09-28T13:32:00Z",
+      "after": {
+        "mode": "current-access",
+        "test": "AT-34C82D-32-1",
+        "action": "read",
+        "account": "cl-blair",
+        "reasons": [
+          "ALLOW"
+        ],
+        "decision": "allow"
+      },
+      "before": null,
+      "result": "accepted",
+      "target": "R-CASE",
+      "ticket": null,
+      "changed": [],
+      "activity": "access_test",
+      "actorKind": "learner",
+      "targetType": "resource",
+      "correlation": "LC-34C82D-32"
+    },
+    {
+      "id": "LA-34C82D-33-2",
+      "seq": 33,
+      "time": "2026-09-28T13:33:00Z",
+      "after": {
+        "mode": "current-access",
+        "test": "AT-34C82D-33-1",
+        "action": "update",
+        "account": "cl-blair",
+        "reasons": [
+          "NO_MATCHING_GRANT"
+        ],
+        "decision": "deny"
+      },
+      "before": null,
+      "result": "accepted",
+      "target": "R-CASE",
+      "ticket": null,
+      "changed": [],
+      "activity": "access_test",
+      "actorKind": "learner",
+      "targetType": "resource",
+      "correlation": "LC-34C82D-33"
+    },
+    {
+      "id": "LA-34C82D-35-2",
+      "seq": 35,
+      "time": "2026-09-28T13:35:00Z",
+      "after": {
+        "mode": "current-access",
+        "test": "AT-34C82D-35-1",
+        "action": "read",
+        "account": "cl-casey",
+        "reasons": [
+          "ALLOW"
+        ],
+        "decision": "allow"
+      },
+      "before": null,
+      "result": "accepted",
+      "target": "R-QUEUE",
+      "ticket": null,
+      "changed": [],
+      "activity": "access_test",
+      "actorKind": "learner",
+      "targetType": "resource",
+      "correlation": "LC-34C82D-35"
+    },
+    {
+      "id": "LA-34C82D-36-2",
+      "seq": 36,
+      "time": "2026-09-28T13:36:00Z",
+      "after": {
+        "mode": "current-access",
+        "test": "AT-34C82D-36-1",
+        "action": "update",
+        "account": "cl-casey",
+        "reasons": [
+          "ALLOW"
+        ],
+        "decision": "allow"
+      },
+      "before": null,
+      "result": "accepted",
+      "target": "R-QUEUE",
+      "ticket": null,
+      "changed": [],
+      "activity": "access_test",
+      "actorKind": "learner",
+      "targetType": "resource",
+      "correlation": "LC-34C82D-36"
+    },
+    {
+      "id": "LA-34C82D-37-2",
+      "seq": 37,
+      "time": "2026-09-28T13:37:00Z",
+      "after": {
+        "mode": "current-access",
+        "test": "AT-34C82D-37-1",
+        "action": "delete",
+        "account": "cl-casey",
+        "reasons": [
+          "ALLOW"
+        ],
+        "decision": "allow"
+      },
+      "before": null,
+      "result": "accepted",
+      "target": "R-AUD",
+      "ticket": null,
+      "changed": [],
+      "activity": "access_test",
+      "actorKind": "learner",
+      "targetType": "resource",
+      "correlation": "LC-34C82D-37"
+    },
+    {
+      "id": "LA-34C82D-38-2",
+      "seq": 38,
+      "time": "2026-09-28T13:38:00Z",
+      "after": {
+        "mode": "current-access",
+        "test": "AT-34C82D-38-1",
+        "action": "manage_sensitive_groups",
+        "account": "cl-casey",
+        "reasons": [
+          "NO_MATCHING_GRANT"
+        ],
+        "decision": "deny"
+      },
+      "before": null,
+      "result": "accepted",
+      "target": "R-DIR",
+      "ticket": null,
+      "changed": [],
+      "activity": "access_test",
+      "actorKind": "learner",
+      "targetType": "resource",
+      "correlation": "LC-34C82D-38"
+    },
+    {
+      "id": "LA-34C82D-40-2",
+      "seq": 40,
+      "time": "2026-09-28T13:40:00Z",
+      "after": {
+        "mode": "current-access",
+        "test": "AT-34C82D-40-1",
+        "action": "read",
+        "account": "cl-emi",
+        "reasons": [
+          "NO_MATCHING_GRANT"
+        ],
+        "decision": "deny"
+      },
+      "before": null,
+      "result": "accepted",
+      "target": "R-AUD",
+      "ticket": null,
+      "changed": [],
+      "activity": "access_test",
+      "actorKind": "learner",
+      "targetType": "resource",
+      "correlation": "LC-34C82D-40"
+    },
+    {
+      "id": "LA-34C82D-41-2",
+      "seq": 41,
+      "time": "2026-09-28T13:41:00Z",
+      "after": {
+        "mode": "current-access",
+        "test": "AT-34C82D-41-1",
+        "action": "export",
+        "account": "cl-emi",
+        "reasons": [
+          "NO_MATCHING_GRANT"
+        ],
+        "decision": "deny"
+      },
+      "before": null,
+      "result": "accepted",
+      "target": "R-AUD",
+      "ticket": null,
+      "changed": [],
+      "activity": "access_test",
+      "actorKind": "learner",
+      "targetType": "resource",
+      "correlation": "LC-34C82D-41"
+    },
+    {
+      "id": "LA-34C82D-42-2",
+      "seq": 42,
+      "time": "2026-09-28T13:42:00Z",
+      "after": {
+        "mode": "current-access",
+        "test": "AT-34C82D-42-1",
+        "action": "delete",
+        "account": "cl-emi",
+        "reasons": [
+          "NO_MATCHING_GRANT"
+        ],
+        "decision": "deny"
+      },
+      "before": null,
+      "result": "accepted",
+      "target": "R-AUD",
+      "ticket": null,
+      "changed": [],
+      "activity": "access_test",
+      "actorKind": "learner",
+      "targetType": "resource",
+      "correlation": "LC-34C82D-42"
+    },
+    {
+      "id": "LA-34C82D-43-1",
+      "seq": 43,
+      "time": "2026-09-28T13:43:00Z",
+      "after": [
+        "GC-AUD",
+        "GC-JUN",
+        "GC-READ"
+      ],
+      "before": [
+        "GC-JUN",
+        "GC-READ"
+      ],
+      "reason": "T401: temporary audit-access experiment for cl-blair to be removed",
+      "result": "accepted",
+      "target": "cl-blair",
+      "ticket": "T401",
+      "changed": [
+        "memberships"
+      ],
+      "activity": "group_member_added",
+      "actorKind": "learner",
+      "targetType": "account",
+      "correlation": "LC-34C82D-43"
+    },
+    {
+      "id": "LA-34C82D-44-2",
+      "seq": 44,
+      "time": "2026-09-28T13:44:00Z",
+      "after": {
+        "mode": "current-access",
+        "test": "AT-34C82D-44-1",
+        "action": "read",
+        "account": "cl-blair",
+        "reasons": [
+          "ALLOW"
+        ],
+        "decision": "allow"
+      },
+      "before": null,
+      "result": "accepted",
+      "target": "R-AUD",
+      "ticket": null,
+      "changed": [],
+      "activity": "access_test",
+      "actorKind": "learner",
+      "targetType": "resource",
+      "correlation": "LC-34C82D-44"
+    },
+    {
+      "id": "LA-34C82D-45-1",
+      "seq": 45,
+      "time": "2026-09-28T13:45:00Z",
+      "after": [
+        "GC-JUN",
+        "GC-READ"
+      ],
+      "before": [
+        "GC-AUD",
+        "GC-JUN",
+        "GC-READ"
+      ],
+      "reason": "T401: remove temporary audit-access experiment from cl-blair.",
+      "result": "accepted",
+      "target": "cl-blair",
+      "ticket": "T401",
+      "changed": [
+        "memberships"
+      ],
+      "activity": "group_member_removed",
+      "actorKind": "learner",
+      "targetType": "account",
+      "correlation": "LC-34C82D-45"
+    },
+    {
+      "id": "LA-34C82D-46-2",
+      "seq": 46,
+      "time": "2026-09-28T13:46:00Z",
+      "after": {
+        "mode": "current-access",
+        "test": "AT-34C82D-46-1",
+        "action": "read",
+        "account": "cl-blair",
+        "reasons": [
+          "NO_MATCHING_GRANT"
+        ],
+        "decision": "deny"
+      },
+      "before": null,
+      "result": "accepted",
+      "target": "R-AUD",
+      "ticket": null,
+      "changed": [],
+      "activity": "access_test",
+      "actorKind": "learner",
+      "targetType": "resource",
+      "correlation": "LC-34C82D-46"
+    },
+    {
+      "id": "LA-34C82D-48-2",
+      "seq": 48,
+      "time": "2026-09-28T13:48:00Z",
+      "after": {
+        "mode": "current-access",
+        "test": "AT-34C82D-48-1",
+        "action": "read",
+        "account": "cl-casey",
+        "reasons": [
+          "NO_MATCHING_GRANT"
+        ],
+        "decision": "deny"
+      },
+      "before": null,
+      "result": "accepted",
+      "target": "R-ABAC",
+      "ticket": null,
+      "changed": [],
+      "activity": "access_test",
+      "actorKind": "learner",
+      "targetType": "resource",
+      "correlation": "LC-34C82D-48"
+    },
+    {
+      "id": "LA-34C82D-49-2",
+      "seq": 49,
+      "time": "2026-09-28T13:49:00Z",
+      "after": {
+        "mode": "abac-what-if",
+        "test": "AT-34C82D-49-1",
+        "action": "read",
+        "account": "cl-casey",
+        "reasons": [
+          "NO_MATCHING_GRANT"
+        ],
+        "decision": "deny"
+      },
+      "before": null,
+      "result": "accepted",
+      "target": "R-ABAC",
+      "ticket": null,
+      "changed": [],
+      "activity": "access_test",
+      "actorKind": "learner",
+      "targetType": "resource",
+      "correlation": "LC-34C82D-49"
+    },
+    {
+      "id": "LA-34C82D-50-2",
+      "seq": 50,
+      "time": "2026-09-28T13:50:00Z",
+      "after": {
+        "mode": "abac-what-if",
+        "test": "AT-34C82D-50-1",
+        "action": "read",
+        "account": "cl-casey",
+        "reasons": [
+          "NO_MATCHING_GRANT"
+        ],
+        "decision": "deny"
+      },
+      "before": null,
+      "result": "accepted",
+      "target": "R-ABAC",
+      "ticket": null,
+      "changed": [],
+      "activity": "access_test",
+      "actorKind": "learner",
+      "targetType": "resource",
+      "correlation": "LC-34C82D-50"
+    },
+    {
+      "id": "LA-34C82D-51-2",
+      "seq": 51,
+      "time": "2026-09-28T13:51:00Z",
+      "after": {
+        "mode": "abac-what-if",
+        "test": "AT-34C82D-51-1",
+        "action": "read",
+        "account": "cl-casey",
+        "reasons": [
+          "NO_MATCHING_GRANT"
+        ],
+        "decision": "deny"
+      },
+      "before": null,
+      "result": "accepted",
+      "target": "R-ABAC",
+      "ticket": null,
+      "changed": [],
+      "activity": "access_test",
+      "actorKind": "learner",
+      "targetType": "resource",
+      "correlation": "LC-34C82D-51"
+    },
+    {
+      "id": "LA-34C82D-52-2",
+      "seq": 52,
+      "time": "2026-09-28T13:52:00Z",
+      "after": {
+        "mode": "abac-what-if",
+        "test": "AT-34C82D-52-1",
+        "action": "read",
+        "account": "cl-casey",
+        "reasons": [
+          "NO_MATCHING_GRANT"
+        ],
+        "decision": "deny"
+      },
+      "before": null,
+      "result": "accepted",
+      "target": "R-ABAC",
+      "ticket": null,
+      "changed": [],
+      "activity": "access_test",
+      "actorKind": "learner",
+      "targetType": "resource",
+      "correlation": "LC-34C82D-52"
+    },
+    {
+      "id": "LA-34C82D-53-2",
+      "seq": 53,
+      "time": "2026-09-28T13:53:00Z",
+      "after": {
+        "mode": "abac-what-if",
+        "test": "AT-34C82D-53-1",
+        "action": "read",
+        "account": "cl-casey",
+        "reasons": [
+          "NO_MATCHING_GRANT"
+        ],
+        "decision": "deny"
+      },
+      "before": null,
+      "result": "accepted",
+      "target": "R-ABAC",
+      "ticket": null,
+      "changed": [],
+      "activity": "access_test",
+      "actorKind": "learner",
+      "targetType": "resource",
+      "correlation": "LC-34C82D-53"
+    },
+    {
+      "id": "LA-34C82D-54-2",
+      "seq": 54,
+      "time": "2026-09-28T13:54:00Z",
+      "after": {
+        "mode": "abac-what-if",
+        "test": "AT-34C82D-54-1",
+        "action": "read",
+        "account": "cl-casey",
+        "reasons": [
+          "NO_MATCHING_GRANT"
+        ],
+        "decision": "deny"
+      },
+      "before": null,
+      "result": "accepted",
+      "target": "R-ABAC",
+      "ticket": null,
+      "changed": [],
+      "activity": "access_test",
+      "actorKind": "learner",
+      "targetType": "resource",
+      "correlation": "LC-34C82D-54"
+    },
+    {
+      "id": "LA-34C82D-55-2",
+      "seq": 55,
+      "time": "2026-09-28T13:55:00Z",
+      "after": {
+        "mode": "abac-what-if",
+        "test": "AT-34C82D-55-1",
+        "action": "read",
+        "account": "cl-casey",
+        "reasons": [
+          "NO_MATCHING_GRANT"
+        ],
+        "decision": "deny"
+      },
+      "before": null,
+      "result": "accepted",
+      "target": "R-ABAC",
+      "ticket": null,
+      "changed": [],
+      "activity": "access_test",
+      "actorKind": "learner",
+      "targetType": "resource",
+      "correlation": "LC-34C82D-55"
+    },
+    {
+      "id": "LA-34C82D-56-1",
+      "seq": 56,
+      "time": "2026-09-28T13:56:00Z",
+      "after": "resolved",
+      "before": "open",
+      "reason": "Blair already had the approved access (read access on Case Summaries and the landing page, update denied). I added Blair to Audit-Reviewers for the temporary experiment, tested it (ALLOW), then removed her and retested (DENY) under T401. Blair's final access matches T401, so I am marking this as resolved.",
+      "result": "accepted",
+      "target": "T401",
+      "ticket": "T401",
+      "changed": [
+        "status"
+      ],
+      "activity": "ticket_resolved",
+      "actorKind": "learner",
+      "targetType": "ticket",
+      "correlation": "LC-34C82D-56"
+    },
+    {
+      "id": "LA-34C82D-57-1",
+      "seq": 57,
+      "time": "2026-09-28T13:57:00Z",
+      "after": [
+        "GC-PRIV",
+        "GC-RESP"
+      ],
+      "before": [
+        "GC-PRIV"
+      ],
+      "reason": "T402: add cl-casey to Response-Operators, approved Response Queue and Internal Response Note access.",
+      "result": "accepted",
+      "target": "cl-casey",
+      "ticket": null,
+      "changed": [
+        "memberships"
+      ],
+      "activity": "group_member_added",
+      "actorKind": "learner",
+      "targetType": "account",
+      "correlation": "LC-34C82D-57"
+    },
+    {
+      "id": "LA-34C82D-58-1",
+      "seq": 58,
+      "time": "2026-09-28T13:58:00Z",
+      "after": [
+        "GC-PRIV",
+        "GC-RESP"
+      ],
+      "before": [
+        "GC-PRIV",
+        "GC-RESP"
+      ],
+      "reason": "T402: add cl-casey to Response-Operators, approved Response Queue and Internal Response Note access.",
+      "result": "no_op",
+      "target": "cl-casey",
+      "ticket": "T402",
+      "changed": [],
+      "activity": "group_member_added",
+      "actorKind": "learner",
+      "targetType": "account",
+      "correlation": "LC-34C82D-58"
+    },
+    {
+      "id": "LA-34C82D-59-1",
+      "seq": 59,
+      "time": "2026-09-28T13:59:00Z",
+      "after": [
+        "GC-PRIV"
+      ],
+      "before": [
+        "GC-PRIV",
+        "GC-RESP"
+      ],
+      "reason": "T402: remove cl-casey from Response-Operators, added in error, not requested by a lab step",
+      "result": "accepted",
+      "target": "cl-casey",
+      "ticket": "T402",
+      "changed": [
+        "memberships"
+      ],
+      "activity": "group_member_removed",
+      "actorKind": "learner",
+      "targetType": "account",
+      "correlation": "LC-34C82D-59"
+    },
+    {
+      "id": "LA-34C82D-60-1",
+      "seq": 60,
+      "time": "2026-09-28T14:00:00Z",
+      "after": [
+        "GC-PRIV",
+        "GC-RESP"
+      ],
+      "before": [
+        "GC-PRIV"
+      ],
+      "reason": "T402: add cl-casey to Response-Operators, approved queue and note access.",
+      "result": "accepted",
+      "target": "cl-casey",
+      "ticket": "T402",
+      "changed": [
+        "memberships"
+      ],
+      "activity": "group_member_added",
+      "actorKind": "learner",
+      "targetType": "account",
+      "correlation": "LC-34C82D-60"
+    },
+    {
+      "id": "LA-34C82D-61-1",
+      "seq": 61,
+      "time": "2026-09-28T14:01:00Z",
+      "after": [
+        "GC-RESP"
+      ],
+      "before": [
+        "GC-PRIV",
+        "GC-RESP"
+      ],
+      "reason": "T402: remove cl-casey from Privileged-Operators, access exceeds approved scope.",
+      "result": "accepted",
+      "target": "cl-casey",
+      "ticket": "T402",
+      "changed": [
+        "memberships"
+      ],
+      "activity": "group_member_removed",
+      "actorKind": "learner",
+      "targetType": "account",
+      "correlation": "LC-34C82D-61"
+    },
+    {
+      "id": "LA-34C82D-62-1",
+      "seq": 62,
+      "time": "2026-09-28T14:02:00Z",
+      "after": [
+        "GC-AUD"
+      ],
+      "before": [],
+      "reason": "T403: add cl-emi to Audit-Reviewers, approved Audit Evidence read and export.",
+      "result": "accepted",
+      "target": "cl-emi",
+      "ticket": "T403",
+      "changed": [
+        "memberships"
+      ],
+      "activity": "group_member_added",
+      "actorKind": "learner",
+      "targetType": "account",
+      "correlation": "LC-34C82D-62"
+    },
+    {
+      "id": "LA-34C82D-63-2",
+      "seq": 63,
+      "time": "2026-09-28T14:03:00Z",
+      "after": {
+        "mode": "current-access",
+        "test": "AT-34C82D-63-1",
+        "action": "read",
+        "account": "cl-casey",
+        "reasons": [
+          "ALLOW"
+        ],
+        "decision": "allow"
+      },
+      "before": null,
+      "result": "accepted",
+      "target": "R-ABAC",
+      "ticket": null,
+      "changed": [],
+      "activity": "access_test",
+      "actorKind": "learner",
+      "targetType": "resource",
+      "correlation": "LC-34C82D-63"
+    },
+    {
+      "id": "LA-34C82D-64-2",
+      "seq": 64,
+      "time": "2026-09-28T14:04:00Z",
+      "after": {
+        "mode": "current-access",
+        "test": "AT-34C82D-64-1",
+        "action": "delete",
+        "account": "cl-casey",
+        "reasons": [
+          "NO_MATCHING_GRANT"
+        ],
+        "decision": "deny"
+      },
+      "before": null,
+      "result": "accepted",
+      "target": "R-AUD",
+      "ticket": null,
+      "changed": [],
+      "activity": "access_test",
+      "actorKind": "learner",
+      "targetType": "resource",
+      "correlation": "LC-34C82D-64"
+    },
+    {
+      "id": "LA-34C82D-65-2",
+      "seq": 65,
+      "time": "2026-09-28T14:05:00Z",
+      "after": {
+        "mode": "current-access",
+        "test": "AT-34C82D-65-1",
+        "action": "read",
+        "account": "cl-emi",
+        "reasons": [
+          "ALLOW"
+        ],
+        "decision": "allow"
+      },
+      "before": null,
+      "result": "accepted",
+      "target": "R-AUD",
+      "ticket": null,
+      "changed": [],
+      "activity": "access_test",
+      "actorKind": "learner",
+      "targetType": "resource",
+      "correlation": "LC-34C82D-65"
+    },
+    {
+      "id": "LA-34C82D-66-2",
+      "seq": 66,
+      "time": "2026-09-28T14:06:00Z",
+      "after": {
+        "mode": "current-access",
+        "test": "AT-34C82D-66-1",
+        "action": "export",
+        "account": "cl-emi",
+        "reasons": [
+          "ALLOW"
+        ],
+        "decision": "allow"
+      },
+      "before": null,
+      "result": "accepted",
+      "target": "R-AUD",
+      "ticket": null,
+      "changed": [],
+      "activity": "access_test",
+      "actorKind": "learner",
+      "targetType": "resource",
+      "correlation": "LC-34C82D-66"
+    },
+    {
+      "id": "LA-34C82D-67-2",
+      "seq": 67,
+      "time": "2026-09-28T14:07:00Z",
+      "after": {
+        "mode": "current-access",
+        "test": "AT-34C82D-67-1",
+        "action": "delete",
+        "account": "cl-emi",
+        "reasons": [
+          "NO_MATCHING_GRANT"
+        ],
+        "decision": "deny"
+      },
+      "before": null,
+      "result": "accepted",
+      "target": "R-AUD",
+      "ticket": null,
+      "changed": [],
+      "activity": "access_test",
+      "actorKind": "learner",
+      "targetType": "resource",
+      "correlation": "LC-34C82D-67"
+    },
+    {
+      "id": "LA-34C82D-68-1",
+      "seq": 68,
+      "time": "2026-09-28T14:08:00Z",
+      "after": "resolved",
+      "before": "open",
+      "reason": "Read access and update access to the Response Queue and read access to the Internal Response Note was approved for cl-casey under T402. It did not approve audit deletion or directory privileges. Casey started in Privileged-Operators, which gave her delete access to the Response Queue, access to Case Summaries and Audit Evidence including delete access as well as directory administration access. I removed the directory assignment AS-09 (LC-34C82D-30), added Casey to Response-Operators (LC-34C82D-60) and also removed her from Privileged-Operators (LC-34C82D-61) under T402 as well. Retests show that read access to the Internal Response Note is allowed (AT-34C82D-63-1) and delete access to Audit Evidence is denied (AT-34C82D-64-1). Her access now matches the approved scope, therefore I am setting the ticket to resolved. An earlier add and removal of Response-Operators (LC-34C82D-59) was made in error and has been undone.",
+      "result": "accepted",
+      "target": "T402",
+      "ticket": "T402",
+      "changed": [
+        "status"
+      ],
+      "activity": "ticket_resolved",
+      "actorKind": "learner",
+      "targetType": "ticket",
+      "correlation": "LC-34C82D-68"
+    },
+    {
+      "id": "LA-34C82D-69-1",
+      "seq": 69,
+      "time": "2026-09-28T14:09:00Z",
+      "after": "resolved",
+      "before": "open",
+      "reason": "Read access and export access to Audit Evidence for cl-emi was approved under T403. Deletion was not approved. Emi started with no groups and no access. I added Emi to Audit-Reviewers under T403 (LC-34C82D-62). Retests show read access to Audit Evidence is allowed (AT-34C82D-65-1), export access is allowed (AT-34C82D-66-1) and delete access is denied (AT-34C82D-67-1). Emi's access now matches the approved scope, therefore I am setting the ticket to resolved.",
+      "result": "accepted",
+      "target": "T403",
+      "ticket": "T403",
+      "changed": [
+        "status"
+      ],
+      "activity": "ticket_resolved",
+      "actorKind": "learner",
+      "targetType": "ticket",
+      "correlation": "LC-34C82D-69"
+    },
+    {
+      "id": "LA-34C82D-70-1",
+      "seq": 70,
+      "time": "2026-09-28T14:10:00Z",
+      "after": {
+        "dn": null,
+        "ou": null,
+        "dir": "CLOUD",
+        "key": "cl-jamie",
+        "mfa": "not_enrolled",
+        "upn": "jamie@cvi-training.example",
+        "dept": "DEP-SUP",
+        "locked": false,
+        "person": "P08",
+        "status": "disabled",
+        "username": "jamie",
+        "mustChange": true,
+        "failedCount": 0,
+        "securityRevision": 1,
+        "credentialVersion": 1
+      },
+      "before": null,
+      "result": "accepted",
+      "target": "cl-jamie",
+      "ticket": "T501",
+      "changed": [
+        "account"
+      ],
+      "activity": "user_created",
+      "actorKind": "learner",
+      "targetType": "account",
+      "correlation": "LC-34C82D-70"
+    },
+    {
+      "id": "LA-34C82D-71-1",
+      "seq": 71,
+      "time": "2026-09-28T14:11:00Z",
+      "after": {
+        "route": "trusted",
+        "outcome": "passed",
+        "hrIdSupplied": "CH-008"
+      },
+      "before": null,
+      "reason": "Trusted callback and matching HR ID.",
+      "result": "accepted",
+      "target": "cl-jamie",
+      "ticket": "T501",
+      "changed": [
+        "verification"
+      ],
+      "activity": "verification_completed",
+      "actorKind": "learner",
+      "targetType": "ticket",
+      "correlation": "LC-34C82D-71"
+    },
+    {
+      "id": "LA-34C82D-72-1",
+      "seq": 72,
+      "time": "2026-09-28T14:12:00Z",
+      "after": {
+        "mfa": "enrolled"
+      },
+      "before": {
+        "mfa": "not_enrolled"
+      },
+      "result": "accepted",
+      "target": "cl-jamie",
+      "ticket": "T501",
+      "changed": [
+        "mfa"
+      ],
+      "activity": "mfa_enrolled",
+      "actorKind": "learner",
+      "targetType": "account",
+      "correlation": "LC-34C82D-72"
+    },
+    {
+      "id": "LA-34C82D-73-1",
+      "seq": 73,
+      "time": "2026-09-28T14:13:00Z",
+      "after": {
+        "status": "enabled",
+        "sessionsRevoked": 0,
+        "securityRevision": 1
+      },
+      "before": {
+        "status": "disabled",
+        "securityRevision": 1
+      },
+      "reason": "T501: enable cl-jamie, approved cloud onboarding.",
+      "result": "accepted",
+      "target": "cl-jamie",
+      "ticket": "T501",
+      "changed": [
+        "status"
+      ],
+      "activity": "account_status_changed",
+      "actorKind": "learner",
+      "targetType": "account",
+      "correlation": "LC-34C82D-73"
+    },
+    {
+      "id": "LA-34C82D-75-1",
+      "seq": 75,
+      "time": "2026-09-28T14:15:00Z",
+      "after": {
+        "mustChange": false,
+        "credentialVersion": 2
+      },
+      "before": {
+        "mustChange": true,
+        "credentialVersion": 1
+      },
+      "result": "accepted",
+      "target": "cl-jamie",
+      "ticket": null,
+      "changed": [
+        "credentialVersion",
+        "mustChange"
+      ],
+      "activity": "credential_changed",
+      "actorKind": "learner",
+      "targetType": "account",
+      "correlation": "LC-34C82D-75"
+    },
+    {
+      "id": "LA-34C82D-77-1",
+      "seq": 77,
+      "time": "2026-09-28T14:17:00Z",
+      "after": [
+        "GC-JUN"
+      ],
+      "before": [],
+      "reason": "T501: add Junior-Analysts per APP-501, read-only case access.",
+      "result": "accepted",
+      "target": "cl-jamie",
+      "ticket": "T501",
+      "changed": [
+        "memberships"
+      ],
+      "activity": "group_member_added",
+      "actorKind": "learner",
+      "targetType": "account",
+      "correlation": "LC-34C82D-77"
+    },
+    {
+      "id": "LA-34C82D-78-1",
+      "seq": 78,
+      "time": "2026-09-28T14:18:00Z",
+      "after": [
+        "GC-JUN",
+        "GC-READ"
+      ],
+      "before": [
+        "GC-JUN"
+      ],
+      "reason": "T501: add Case-Readers per APP-501, read-only case access.",
+      "result": "accepted",
+      "target": "cl-jamie",
+      "ticket": "T501",
+      "changed": [
+        "memberships"
+      ],
+      "activity": "group_member_added",
+      "actorKind": "learner",
+      "targetType": "account",
+      "correlation": "LC-34C82D-78"
+    },
+    {
+      "id": "LA-34C82D-79-2",
+      "seq": 79,
+      "time": "2026-09-28T14:19:00Z",
+      "after": {
+        "mode": "current-access",
+        "test": "AT-34C82D-79-1",
+        "action": "read",
+        "account": "cl-jamie",
+        "reasons": [
+          "ALLOW"
+        ],
+        "decision": "allow"
+      },
+      "before": null,
+      "result": "accepted",
+      "target": "R-CASE",
+      "ticket": null,
+      "changed": [],
+      "activity": "access_test",
+      "actorKind": "learner",
+      "targetType": "resource",
+      "correlation": "LC-34C82D-79"
+    },
+    {
+      "id": "LA-34C82D-80-2",
+      "seq": 80,
+      "time": "2026-09-28T14:20:00Z",
+      "after": {
+        "mode": "current-access",
+        "test": "AT-34C82D-80-1",
+        "action": "update",
+        "account": "cl-jamie",
+        "reasons": [
+          "NO_MATCHING_GRANT"
+        ],
+        "decision": "deny"
+      },
+      "before": null,
+      "result": "accepted",
+      "target": "R-CASE",
+      "ticket": null,
+      "changed": [],
+      "activity": "access_test",
+      "actorKind": "learner",
+      "targetType": "resource",
+      "correlation": "LC-34C82D-80"
+    },
+    {
+      "id": "LA-34C82D-81-1",
+      "seq": 81,
+      "time": "2026-09-28T14:21:00Z",
+      "after": "resolved",
+      "before": "open",
+      "reason": "Finishing Jamie’s cloud onboarding for P08 was approved under T501: create cl-jamie, verify MFA enrollment and credential setup, enable and add Junior-Analysts and Case-Readers for read-only case access, while keeping the AD account. The identity verification passed using the callback evidence (CB-501) and HR ID CH-008. \n\nI created cl-jamie, enrolled MFA, enabled the account and added the two approved groups under T501. The credential change for Jamie was completed at at first sign-in. Read access to Case Summaries was allowed (AT-34C82D-79-1) and update access was denied (AT-34C82D-80-1). Jamie’s access now matches the approved scope, therefore I am setting the ticket to resolved.",
+      "result": "accepted",
+      "target": "T501",
+      "ticket": "T501",
+      "changed": [
+        "status"
+      ],
+      "activity": "ticket_resolved",
+      "actorKind": "learner",
+      "targetType": "ticket",
+      "correlation": "LC-34C82D-81"
+    },
+    {
+      "id": "LA-34C82D-83-2",
+      "seq": 83,
+      "time": "2026-09-28T14:23:00Z",
+      "after": {
+        "mode": "current-access",
+        "test": "AT-34C82D-83-1",
+        "action": "read",
+        "account": "ad-alex",
+        "reasons": [
+          "ALLOW"
+        ],
+        "decision": "allow"
+      },
+      "before": null,
+      "result": "accepted",
+      "target": "R-ADRESP",
+      "ticket": null,
+      "changed": [],
+      "activity": "access_test",
+      "actorKind": "learner",
+      "targetType": "resource",
+      "correlation": "LC-34C82D-83"
+    },
+    {
+      "id": "LA-34C82D-85-2",
+      "seq": 85,
+      "time": "2026-09-28T14:25:00Z",
+      "after": {
+        "mode": "current-access",
+        "test": "AT-34C82D-85-1",
+        "action": "read",
+        "account": "cl-alex",
+        "reasons": [
+          "ALLOW"
+        ],
+        "decision": "allow"
+      },
+      "before": null,
+      "result": "accepted",
+      "target": "R-QUEUE",
+      "ticket": null,
+      "changed": [],
+      "activity": "access_test",
+      "actorKind": "learner",
+      "targetType": "resource",
+      "correlation": "LC-34C82D-85"
+    },
+    {
+      "id": "LA-34C82D-86-1",
+      "seq": 86,
+      "time": "2026-09-28T14:26:00Z",
+      "after": "DEP-AUD",
+      "before": "DEP-RESP",
+      "result": "accepted",
+      "target": "P01",
+      "ticket": "T502",
+      "changed": [
+        "department"
+      ],
+      "activity": "department_changed",
+      "actorKind": "learner",
+      "targetType": "person",
+      "correlation": "LC-34C82D-86"
+    },
+    {
+      "id": "LA-34C82D-86-2",
+      "seq": 86,
+      "time": "2026-09-28T14:26:00Z",
+      "after": "DEP-AUD",
+      "before": "DEP-RESP",
+      "result": "accepted",
+      "target": "ad-alex",
+      "ticket": "T502",
+      "changed": [
+        "department"
+      ],
+      "activity": "department_changed",
+      "actorKind": "learner",
+      "targetType": "account",
+      "correlation": "LC-34C82D-86"
+    },
+    {
+      "id": "LA-34C82D-86-3",
+      "seq": 86,
+      "time": "2026-09-28T14:26:00Z",
+      "after": "DEP-AUD",
+      "before": "DEP-RESP",
+      "result": "accepted",
+      "target": "cl-alex",
+      "ticket": "T502",
+      "changed": [
+        "department"
+      ],
+      "activity": "department_changed",
+      "actorKind": "learner",
+      "targetType": "account",
+      "correlation": "LC-34C82D-86"
+    },
+    {
+      "id": "LA-34C82D-87-1",
+      "seq": 87,
+      "time": "2026-09-28T14:27:00Z",
+      "after": {
+        "dn": "CN=Alex Morgan,OU=Audit,OU=Staff,DC=ad,DC=cloudheights,DC=example",
+        "ou": "OU-AUD"
+      },
+      "before": {
+        "dn": "CN=Alex Morgan,OU=Response,OU=Staff,DC=ad,DC=cloudheights,DC=example",
+        "ou": "OU-RESP"
+      },
+      "reason": "T502: move ad-alex to the Audit OU per the approved transfer.",
+      "result": "accepted",
+      "target": "ad-alex",
+      "ticket": "T502",
+      "changed": [
+        "ou",
+        "dn"
+      ],
+      "activity": "ou_changed",
+      "actorKind": "learner",
+      "targetType": "account",
+      "correlation": "LC-34C82D-87"
+    },
+    {
+      "id": "LA-34C82D-88-1",
+      "seq": 88,
+      "time": "2026-09-28T14:28:00Z",
+      "after": [
+        "GA-ALL"
+      ],
+      "before": [
+        "GA-ALL",
+        "GA-RESP"
+      ],
+      "reason": "T502: remove Response-Team, old operational access ends per APP-502.",
+      "result": "accepted",
+      "target": "ad-alex",
+      "ticket": "T502",
+      "changed": [
+        "memberships"
+      ],
+      "activity": "group_member_removed",
+      "actorKind": "learner",
+      "targetType": "account",
+      "correlation": "LC-34C82D-88"
+    },
+    {
+      "id": "LA-34C82D-89-1",
+      "seq": 89,
+      "time": "2026-09-28T14:29:00Z",
+      "after": [
+        "GA-ALL",
+        "GA-AUD"
+      ],
+      "before": [
+        "GA-ALL"
+      ],
+      "reason": "T502: add Audit-Team, audit access approved in APP-502.",
+      "result": "accepted",
+      "target": "ad-alex",
+      "ticket": "T502",
+      "changed": [
+        "memberships"
+      ],
+      "activity": "group_member_added",
+      "actorKind": "learner",
+      "targetType": "account",
+      "correlation": "LC-34C82D-89"
+    },
+    {
+      "id": "LA-34C82D-91-2",
+      "seq": 91,
+      "time": "2026-09-28T14:31:00Z",
+      "after": {
+        "mode": "current-access",
+        "test": "AT-34C82D-91-1",
+        "action": "read",
+        "account": "ad-alex",
+        "reasons": [
+          "NO_MATCHING_GRANT"
+        ],
+        "decision": "deny"
+      },
+      "before": null,
+      "result": "accepted",
+      "target": "R-ADRESP",
+      "ticket": null,
+      "changed": [],
+      "activity": "access_test",
+      "actorKind": "learner",
+      "targetType": "resource",
+      "correlation": "LC-34C82D-91"
+    },
+    {
+      "id": "LA-34C82D-92-2",
+      "seq": 92,
+      "time": "2026-09-28T14:32:00Z",
+      "after": {
+        "mode": "current-access",
+        "test": "AT-34C82D-92-1",
+        "action": "read",
+        "account": "ad-alex",
+        "reasons": [
+          "ALLOW"
+        ],
+        "decision": "allow"
+      },
+      "before": null,
+      "result": "accepted",
+      "target": "R-ADAUD",
+      "ticket": null,
+      "changed": [],
+      "activity": "access_test",
+      "actorKind": "learner",
+      "targetType": "resource",
+      "correlation": "LC-34C82D-92"
+    },
+    {
+      "id": "LA-34C82D-93-2",
+      "seq": 93,
+      "time": "2026-09-28T14:33:00Z",
+      "after": {
+        "mode": "current-access",
+        "test": "AT-34C82D-93-1",
+        "action": "read",
+        "account": "ad-alex",
+        "reasons": [
+          "ALLOW"
+        ],
+        "decision": "allow"
+      },
+      "before": null,
+      "result": "accepted",
+      "target": "R-HAND",
+      "ticket": null,
+      "changed": [],
+      "activity": "access_test",
+      "actorKind": "learner",
+      "targetType": "resource",
+      "correlation": "LC-34C82D-93"
+    },
+    {
+      "id": "LA-34C82D-94-1",
+      "seq": 94,
+      "time": "2026-09-28T14:34:00Z",
+      "after": [],
+      "before": [
+        "GC-RESP"
+      ],
+      "reason": "",
+      "result": "accepted",
+      "target": "cl-alex",
+      "ticket": "T502",
+      "changed": [
+        "memberships"
+      ],
+      "activity": "group_member_removed",
+      "actorKind": "learner",
+      "targetType": "account",
+      "correlation": "LC-34C82D-94"
+    },
+    {
+      "id": "LA-34C82D-95-1",
+      "seq": 95,
+      "time": "2026-09-28T14:35:00Z",
+      "after": [
+        "GC-AUD"
+      ],
+      "before": [],
+      "reason": "",
+      "result": "accepted",
+      "target": "cl-alex",
+      "ticket": "T502",
+      "changed": [
+        "memberships"
+      ],
+      "activity": "group_member_added",
+      "actorKind": "learner",
+      "targetType": "account",
+      "correlation": "LC-34C82D-95"
+    },
+    {
+      "id": "LA-34C82D-97-2",
+      "seq": 97,
+      "time": "2026-09-28T14:37:00Z",
+      "after": {
+        "mode": "current-access",
+        "test": "AT-34C82D-97-1",
+        "action": "read",
+        "account": "cl-alex",
+        "reasons": [
+          "NO_MATCHING_GRANT"
+        ],
+        "decision": "deny"
+      },
+      "before": null,
+      "result": "accepted",
+      "target": "R-QUEUE",
+      "ticket": null,
+      "changed": [],
+      "activity": "access_test",
+      "actorKind": "learner",
+      "targetType": "resource",
+      "correlation": "LC-34C82D-97"
+    },
+    {
+      "id": "LA-34C82D-98-2",
+      "seq": 98,
+      "time": "2026-09-28T14:38:00Z",
+      "after": {
+        "mode": "current-access",
+        "test": "AT-34C82D-98-1",
+        "action": "read",
+        "account": "cl-alex",
+        "reasons": [
+          "ALLOW"
+        ],
+        "decision": "allow"
+      },
+      "before": null,
+      "result": "accepted",
+      "target": "R-AUD",
+      "ticket": null,
+      "changed": [],
+      "activity": "access_test",
+      "actorKind": "learner",
+      "targetType": "resource",
+      "correlation": "LC-34C82D-98"
+    },
+    {
+      "id": "LA-34C82D-99-1",
+      "seq": 99,
+      "time": "2026-09-28T14:39:00Z",
+      "after": "resolved",
+      "before": "open",
+      "reason": "Changing Alex Morgan’s department from Response to Audit in HR and both directories, keeping staff handbook access, removing old operational access and adding audit access was approved under T502. I applied the department change to the person record, ad-alex and cl-alex (LC-34C82D-86-1, 86-2 and 86-3) and moved ad-alex to OU-AUD (LC-34C82D-87). In the Active Directory, I removed ad-alex from Response-Team (LC-34C82D-88) and added Audit-Team (LC-34C82D-89). In Cloud Identity, I removed cl-alex from Response-Operators (LC-34C82D-94) and added Audit-Reviewers (LC-34C82D-95). All changes were made under T502. Tests show that read access to the Response Share is denied (AT-34C82D-91-1), read access to the Response Queue is denied (AT-34C82D-97-1), read access to the Audit Share is allowed (AT-34C82D-92-1), read access to Audit Evidence is allowed (AT-34C82D-98-1) and read access to the Staff Handbook is still allowed (AT-34C82D-93-1). Before and after evidence is saved in E13 (showing two identical after captures). Alex’s access matches the approved scope, therefore I am setting the ticket to resolved.",
+      "result": "accepted",
+      "target": "T502",
+      "ticket": "T502",
+      "changed": [
+        "status"
+      ],
+      "activity": "ticket_resolved",
+      "actorKind": "learner",
+      "targetType": "ticket",
+      "correlation": "LC-34C82D-99"
+    },
+    {
+      "id": "LA-34C82D-101-2",
+      "seq": 101,
+      "time": "2026-09-28T14:41:00Z",
+      "after": {
+        "mode": "current-access",
+        "test": "AT-34C82D-101-1",
+        "action": "read",
+        "account": "cl-finley",
+        "reasons": [
+          "ALLOW"
+        ],
+        "decision": "allow"
+      },
+      "before": null,
+      "result": "accepted",
+      "target": "R-CASE",
+      "ticket": null,
+      "changed": [],
+      "activity": "access_test",
+      "actorKind": "learner",
+      "targetType": "resource",
+      "correlation": "LC-34C82D-101"
+    },
+    {
+      "id": "LA-34C82D-102-1",
+      "seq": 102,
+      "time": "2026-09-28T14:42:00Z",
+      "after": {
+        "status": "disabled",
+        "sessionsRevoked": 0,
+        "securityRevision": 2
+      },
+      "before": {
+        "status": "enabled",
+        "securityRevision": 1
+      },
+      "reason": "",
+      "result": "accepted",
+      "target": "ad-finley",
+      "ticket": "T503",
+      "changed": [
+        "status",
+        "securityRevision",
+        "sessions"
+      ],
+      "activity": "account_status_changed",
+      "actorKind": "learner",
+      "targetType": "account",
+      "correlation": "LC-34C82D-102"
+    },
+    {
+      "id": "LA-34C82D-103-1",
+      "seq": 103,
+      "time": "2026-09-28T14:43:00Z",
+      "after": {
+        "sessionsRevoked": 0,
+        "securityRevision": 3
+      },
+      "before": null,
+      "reason": "",
+      "result": "accepted",
+      "target": "ad-finley",
+      "ticket": "T503",
+      "changed": [
+        "sessions",
+        "securityRevision"
+      ],
+      "activity": "sessions_revoked",
+      "actorKind": "learner",
+      "targetType": "account",
+      "correlation": "LC-34C82D-103"
+    },
+    {
+      "id": "LA-34C82D-104-1",
+      "seq": 104,
+      "time": "2026-09-28T14:44:00Z",
+      "after": [
+        "GA-SUP"
+      ],
+      "before": [
+        "GA-ALL",
+        "GA-SUP"
+      ],
+      "reason": "",
+      "result": "accepted",
+      "target": "ad-finley",
+      "ticket": "T503",
+      "changed": [
+        "memberships"
+      ],
+      "activity": "group_member_removed",
+      "actorKind": "learner",
+      "targetType": "account",
+      "correlation": "LC-34C82D-104"
+    },
+    {
+      "id": "LA-34C82D-105-1",
+      "seq": 105,
+      "time": "2026-09-28T14:45:00Z",
+      "after": [],
+      "before": [
+        "GA-SUP"
+      ],
+      "reason": "",
+      "result": "accepted",
+      "target": "ad-finley",
+      "ticket": "T503",
+      "changed": [
+        "memberships"
+      ],
+      "activity": "group_member_removed",
+      "actorKind": "learner",
+      "targetType": "account",
+      "correlation": "LC-34C82D-105"
+    },
+    {
+      "id": "LA-34C82D-106-1",
+      "seq": 106,
+      "time": "2026-09-28T14:46:00Z",
+      "after": {
+        "status": "disabled",
+        "sessionsRevoked": 1,
+        "securityRevision": 2
+      },
+      "before": {
+        "status": "enabled",
+        "securityRevision": 1
+      },
+      "reason": "",
+      "result": "accepted",
+      "target": "cl-finley",
+      "ticket": "T503",
+      "changed": [
+        "status",
+        "securityRevision",
+        "sessions"
+      ],
+      "activity": "account_status_changed",
+      "actorKind": "learner",
+      "targetType": "account",
+      "correlation": "LC-34C82D-106"
+    },
+    {
+      "id": "LA-34C82D-107-1",
+      "seq": 107,
+      "time": "2026-09-28T14:47:00Z",
+      "after": {
+        "sessionsRevoked": 0,
+        "securityRevision": 3
+      },
+      "before": null,
+      "reason": "",
+      "result": "accepted",
+      "target": "cl-finley",
+      "ticket": "T503",
+      "changed": [
+        "sessions",
+        "securityRevision"
+      ],
+      "activity": "sessions_revoked",
+      "actorKind": "learner",
+      "targetType": "account",
+      "correlation": "LC-34C82D-107"
+    },
+    {
+      "id": "LA-34C82D-108-1",
+      "seq": 108,
+      "time": "2026-09-28T14:48:00Z",
+      "after": [],
+      "before": [
+        "GC-READ"
+      ],
+      "reason": "",
+      "result": "accepted",
+      "target": "cl-finley",
+      "ticket": "T503",
+      "changed": [
+        "memberships"
+      ],
+      "activity": "group_member_removed",
+      "actorKind": "learner",
+      "targetType": "account",
+      "correlation": "LC-34C82D-108"
+    },
+    {
+      "id": "LA-34C82D-109-1",
+      "seq": 109,
+      "time": "2026-09-28T14:49:00Z",
+      "after": {
+        "dn": "CN=Finley Ross,OU=Disabled Accounts,DC=ad,DC=cloudheights,DC=example",
+        "ou": "OU-DIS"
+      },
+      "before": {
+        "dn": "CN=Finley Ross,OU=Support,OU=Staff,DC=ad,DC=cloudheights,DC=example",
+        "ou": "OU-SUP"
+      },
+      "reason": "",
+      "result": "accepted",
+      "target": "ad-finley",
+      "ticket": "T503",
+      "changed": [
+        "ou",
+        "dn"
+      ],
+      "activity": "ou_changed",
+      "actorKind": "learner",
+      "targetType": "account",
+      "correlation": "LC-34C82D-109"
+    },
+    {
+      "id": "LA-34C82D-110-2",
+      "seq": 110,
+      "time": "2026-09-28T14:50:00Z",
+      "after": {
+        "mode": "current-access",
+        "test": "AT-34C82D-110-1",
+        "action": "read",
+        "account": "cl-finley",
+        "reasons": [
+          "ACCOUNT_DISABLED"
+        ],
+        "decision": "deny"
+      },
+      "before": null,
+      "result": "accepted",
+      "target": "R-CASE",
+      "ticket": null,
+      "changed": [],
+      "activity": "access_test",
+      "actorKind": "learner",
+      "targetType": "resource",
+      "correlation": "LC-34C82D-110"
+    },
+    {
+      "id": "LA-34C82D-112-1",
+      "seq": 112,
+      "time": "2026-09-28T14:52:00Z",
+      "after": "resolved",
+      "before": "open",
+      "reason": "T503 approved ending Finley Ross’s access now (P06, ad-finley, cl-finley): disable both accounts, end sessions, remove memberships and move the AD account to Disabled Accounts, with nothing deleted, keep records and logs. I disabled ad-finley (LC-34C82D-102) and cl-finley (LC-34C82D-106), revoked sessions on both (LC-34C82D-103 and 107), removed All-Staff and Support-Team from ad-finley (LC-34C82D-104 and 105) and Case-Readers from cl-finley (LC-34C82D-108), and moved ad-finley to Disabled Accounts (LC-34C82D-109)under T503. Before the changes were made, Finley’s Case Summaries read access was allowed (AT-34C82D-101-1). After the changes were made the old session was denied because the account is disabled (AT-34C82D-110-1) and a new sign-in failed with ACCOUNT_DISABLED (LC-34C82D-111). Nothing was deleted, and evidence is saved in E14. Finley’s access matches the approved scope, therefore I am setting the ticket to resolved.",
+      "result": "accepted",
+      "target": "T503",
+      "ticket": "T503",
+      "changed": [
+        "status"
+      ],
+      "activity": "ticket_resolved",
+      "actorKind": "learner",
+      "targetType": "ticket",
+      "correlation": "LC-34C82D-112"
+    },
+    {
+      "id": "LA-34C82D-113-1",
+      "seq": 113,
+      "time": "2026-09-28T14:53:00Z",
+      "after": {
+        "route": "request_only",
+        "outcome": "failed",
+        "hrIdSupplied": "CH-099"
+      },
+      "before": null,
+      "reason": "Request-only details are not trusted verification.",
+      "result": "refused",
+      "target": "cl-blair",
+      "ticket": "T504",
+      "changed": [
+        "verification"
+      ],
+      "activity": "verification_completed",
+      "actorKind": "learner",
+      "targetType": "ticket",
+      "correlation": "LC-34C82D-113"
+    },
+    {
+      "id": "LA-34C82D-114-1",
+      "seq": 114,
+      "time": "2026-09-28T14:54:00Z",
+      "after": "escalated",
+      "before": "open",
+      "reason": "An urgent password reset for cl-blair from an unrecognized caller was requested under T504. There was no reset approval or approver attached and the ticket said to follow the verification procedure. The caller claimed employee ID CH-099, but HR-LOOKUP shows that Blair Chen (P02) has staff ID CH-002. The callback number came from the caller and was not on the HR record and CB-504 says no callback to the HR-recorded number was made. Identity verification was ran using the caller’s claimed ID and the requester-supplied route. The verification failed (LC-34C82D-113): request-only details are not trusted verification. I did not reset the credential and Blair’s account is unchanged. I am setting the ticket to escalated so that someone can contact Blair through the HR-recorded number and review the unverified request.",
+      "result": "accepted",
+      "target": "T504",
+      "ticket": "T504",
+      "changed": [
+        "status"
+      ],
+      "activity": "ticket_escalated",
+      "actorKind": "learner",
+      "targetType": "ticket",
+      "correlation": "LC-34C82D-114"
+    },
+    {
+      "id": "LA-34C82D-115-1",
+      "seq": 115,
+      "time": "2026-09-28T14:55:00Z",
+      "after": {
+        "key": "AS-11",
+        "role": "RL-AZREAD",
+        "group": "GC-AZ",
+        "scope": "RG-LAB",
+        "createdSeq": 115
+      },
+      "before": null,
+      "reason": "",
+      "result": "accepted",
+      "target": "GC-AZ",
+      "ticket": "T505",
+      "changed": [
+        "assignments"
+      ],
+      "activity": "role_assignment_changed",
+      "actorKind": "learner",
+      "targetType": "group",
+      "correlation": "LC-34C82D-115"
+    },
+    {
+      "id": "LA-34C82D-116-1",
+      "seq": 116,
+      "time": "2026-09-28T14:56:00Z",
+      "after": [
+        "GC-AZ",
+        "GC-JUN",
+        "GC-READ"
+      ],
+      "before": [
+        "GC-JUN",
+        "GC-READ"
+      ],
+      "reason": "",
+      "result": "accepted",
+      "target": "cl-blair",
+      "ticket": "T505",
+      "changed": [
+        "memberships"
+      ],
+      "activity": "group_member_added",
+      "actorKind": "learner",
+      "targetType": "account",
+      "correlation": "LC-34C82D-116"
+    },
+    {
+      "id": "LA-34C82D-118-2",
+      "seq": 118,
+      "time": "2026-09-28T14:58:00Z",
+      "after": {
+        "mode": "current-access",
+        "test": "AT-34C82D-118-1",
+        "action": "read_metadata",
+        "account": "cl-blair",
+        "reasons": [
+          "ALLOW"
+        ],
+        "decision": "allow"
+      },
+      "before": null,
+      "result": "accepted",
+      "target": "R-VM1",
+      "ticket": null,
+      "changed": [],
+      "activity": "access_test",
+      "actorKind": "learner",
+      "targetType": "resource",
+      "correlation": "LC-34C82D-118"
+    },
+    {
+      "id": "LA-34C82D-119-2",
+      "seq": 119,
+      "time": "2026-09-28T14:59:00Z",
+      "after": {
+        "mode": "current-access",
+        "test": "AT-34C82D-119-1",
+        "action": "stop",
+        "account": "cl-blair",
+        "reasons": [
+          "NO_MATCHING_GRANT"
+        ],
+        "decision": "deny"
+      },
+      "before": null,
+      "result": "accepted",
+      "target": "R-VM1",
+      "ticket": null,
+      "changed": [],
+      "activity": "access_test",
+      "actorKind": "learner",
+      "targetType": "resource",
+      "correlation": "LC-34C82D-119"
+    },
+    {
+      "id": "LA-34C82D-120-2",
+      "seq": 120,
+      "time": "2026-09-28T15:00:00Z",
+      "after": {
+        "mode": "current-access",
+        "test": "AT-34C82D-120-1",
+        "action": "read_metadata",
+        "account": "cl-blair",
+        "reasons": [
+          "ALLOW"
+        ],
+        "decision": "allow"
+      },
+      "before": null,
+      "result": "accepted",
+      "target": "R-VM1",
+      "ticket": null,
+      "changed": [],
+      "activity": "access_test",
+      "actorKind": "learner",
+      "targetType": "resource",
+      "correlation": "LC-34C82D-120"
+    },
+    {
+      "id": "LA-34C82D-121-2",
+      "seq": 121,
+      "time": "2026-09-28T15:01:00Z",
+      "after": {
+        "mode": "current-access",
+        "test": "AT-34C82D-121-1",
+        "action": "read_metadata",
+        "account": "cl-blair",
+        "reasons": [
+          "NO_MATCHING_GRANT"
+        ],
+        "decision": "deny"
+      },
+      "before": null,
+      "result": "accepted",
+      "target": "R-VM2",
+      "ticket": null,
+      "changed": [],
+      "activity": "access_test",
+      "actorKind": "learner",
+      "targetType": "resource",
+      "correlation": "LC-34C82D-121"
+    },
+    {
+      "id": "LA-34C82D-122-1",
+      "seq": 122,
+      "time": "2026-09-28T15:02:00Z",
+      "after": "resolved",
+      "before": "open",
+      "reason": "cl-blair's view only access to metadata in the Identity Training Resource Group (RG-LAB), with VM stop and any other resource group excluded was approved under T505. I also assigned Azure Reader (teaching subset) to Training-Resource-Readers at RG-LAB (LC-34C82D-115) and added cl-blair to that group (LC-34C82D-116) under T505. The tests show that Blair has read access to the Training-VM’s metadata (AT-34C82D-118-1), cannot stop it (AT-34C82D-119-1) and cannot read the Other-Team-VM’s metadata (AT-34C82D-121-1). A duplicate Training-VM read test (AT-34C82D-120-1) was run by mistake and changed no access. Evidence is saved in E16. Blair’s access matches the approved scope, therefore I am setting the ticket to resolved.",
+      "result": "accepted",
+      "target": "T505",
+      "ticket": "T505",
+      "changed": [
+        "status"
+      ],
+      "activity": "ticket_resolved",
+      "actorKind": "learner",
+      "targetType": "ticket",
+      "correlation": "LC-34C82D-122"
+    },
+    {
+      "id": "LA-34C82D-125-2",
+      "seq": 125,
+      "time": "2026-09-28T15:05:00Z",
+      "after": {
+        "mode": "current-access",
+        "test": "AT-34C82D-125-1",
+        "action": "read",
+        "account": "cl-alex",
+        "reasons": [
+          "NO_MATCHING_GRANT"
+        ],
+        "decision": "deny"
+      },
+      "before": null,
+      "result": "accepted",
+      "target": "R-QUEUE",
+      "ticket": null,
+      "changed": [],
+      "activity": "access_test",
+      "actorKind": "learner",
+      "targetType": "resource",
+      "correlation": "LC-34C82D-125"
+    },
+    {
+      "id": "LA-34C82D-126-2",
+      "seq": 126,
+      "time": "2026-09-28T15:06:00Z",
+      "after": {
+        "mode": "current-access",
+        "test": "AT-34C82D-126-1",
+        "action": "read",
+        "account": "cl-alex",
+        "reasons": [
+          "ALLOW"
+        ],
+        "decision": "allow"
+      },
+      "before": null,
+      "result": "accepted",
+      "target": "R-AUD",
+      "ticket": null,
+      "changed": [],
+      "activity": "access_test",
+      "actorKind": "learner",
+      "targetType": "resource",
+      "correlation": "LC-34C82D-126"
+    },
+    {
+      "id": "LA-34C82D-128-2",
+      "seq": 128,
+      "time": "2026-09-28T15:08:00Z",
+      "after": {
+        "mode": "current-access",
+        "test": "AT-34C82D-128-1",
+        "action": "read",
+        "account": "ad-alex",
+        "reasons": [
+          "NO_MATCHING_GRANT"
+        ],
+        "decision": "deny"
+      },
+      "before": null,
+      "result": "accepted",
+      "target": "R-ADRESP",
+      "ticket": null,
+      "changed": [],
+      "activity": "access_test",
+      "actorKind": "learner",
+      "targetType": "resource",
+      "correlation": "LC-34C82D-128"
+    },
+    {
+      "id": "LA-34C82D-129-2",
+      "seq": 129,
+      "time": "2026-09-28T15:09:00Z",
+      "after": {
+        "mode": "current-access",
+        "test": "AT-34C82D-129-1",
+        "action": "read",
+        "account": "ad-alex",
+        "reasons": [
+          "ALLOW"
+        ],
+        "decision": "allow"
+      },
+      "before": null,
+      "result": "accepted",
+      "target": "R-ADAUD",
+      "ticket": null,
+      "changed": [],
+      "activity": "access_test",
+      "actorKind": "learner",
+      "targetType": "resource",
+      "correlation": "LC-34C82D-129"
+    },
+    {
+      "id": "LA-34C82D-130-2",
+      "seq": 130,
+      "time": "2026-09-28T15:10:00Z",
+      "after": {
+        "mode": "current-access",
+        "test": "AT-34C82D-130-1",
+        "action": "read",
+        "account": "ad-alex",
+        "reasons": [
+          "ALLOW"
+        ],
+        "decision": "allow"
+      },
+      "before": null,
+      "result": "accepted",
+      "target": "R-HAND",
+      "ticket": null,
+      "changed": [],
+      "activity": "access_test",
+      "actorKind": "learner",
+      "targetType": "resource",
+      "correlation": "LC-34C82D-130"
+    },
+    {
+      "id": "LA-34C82D-131-2",
+      "seq": 131,
+      "time": "2026-09-28T15:11:00Z",
+      "after": {
+        "mode": "current-access",
+        "test": "AT-34C82D-131-1",
+        "action": "read",
+        "account": "ad-alex",
+        "reasons": [
+          "NO_MATCHING_GRANT"
+        ],
+        "decision": "deny"
+      },
+      "before": null,
+      "result": "accepted",
+      "target": "R-ADRESP",
+      "ticket": null,
+      "changed": [],
+      "activity": "access_test",
+      "actorKind": "learner",
+      "targetType": "resource",
+      "correlation": "LC-34C82D-131"
+    },
+    {
+      "id": "LA-34C82D-132-2",
+      "seq": 132,
+      "time": "2026-09-28T15:12:00Z",
+      "after": {
+        "mode": "current-access",
+        "test": "AT-34C82D-132-1",
+        "action": "read",
+        "account": "cl-alex",
+        "reasons": [
+          "NO_MATCHING_GRANT"
+        ],
+        "decision": "deny"
+      },
+      "before": null,
+      "result": "accepted",
+      "target": "R-ABAC",
+      "ticket": null,
+      "changed": [],
+      "activity": "access_test",
+      "actorKind": "learner",
+      "targetType": "resource",
+      "correlation": "LC-34C82D-132"
+    }
+  ],
+  "accessTests": [
+    {
+      "id": "AT-34C82D-2-1",
+      "seq": 2,
+      "mode": "current-access",
+      "paths": [
+        {
+          "kind": "role",
+          "role": "RL-LAND",
+          "group": "GC-JUN",
+          "scope": "R-LAND",
+          "assignment": "AS-01"
+        }
+      ],
+      "action": "read",
+      "device": "managed-blair",
+      "account": "cl-blair",
+      "reasons": [
+        "ALLOW"
+      ],
+      "session": "SES-34C82D-1",
+      "decision": "allow",
+      "resource": "R-LAND",
+      "revision": 2,
+      "memberships": [
+        "GC-JUN"
+      ]
+    },
+    {
+      "id": "AT-34C82D-3-1",
+      "seq": 3,
+      "mode": "current-access",
+      "paths": [],
+      "action": "read",
+      "device": "managed-blair",
+      "account": "cl-blair",
+      "reasons": [
+        "NO_MATCHING_GRANT"
+      ],
+      "session": "SES-34C82D-1",
+      "decision": "deny",
+      "resource": "R-CASE",
+      "revision": 3,
+      "memberships": [
+        "GC-JUN"
+      ]
+    },
+    {
+      "id": "AT-34C82D-4-1",
+      "seq": 4,
+      "mode": "current-access",
+      "paths": [],
+      "action": "update",
+      "device": "managed-blair",
+      "account": "cl-blair",
+      "reasons": [
+        "NO_MATCHING_GRANT"
+      ],
+      "session": "SES-34C82D-1",
+      "decision": "deny",
+      "resource": "R-CASE",
+      "revision": 4,
+      "memberships": [
+        "GC-JUN"
+      ]
+    },
+    {
+      "id": "AT-34C82D-6-1",
+      "seq": 6,
+      "mode": "current-access",
+      "paths": [
+        {
+          "kind": "role",
+          "role": "RL-READ",
+          "group": "GC-READ",
+          "scope": "R-CASE",
+          "assignment": "AS-02"
+        }
+      ],
+      "action": "read",
+      "device": "managed-blair",
+      "account": "cl-blair",
+      "reasons": [
+        "ALLOW"
+      ],
+      "session": "SES-34C82D-1",
+      "decision": "allow",
+      "resource": "R-CASE",
+      "revision": 6,
+      "memberships": [
+        "GC-JUN",
+        "GC-READ"
+      ]
+    },
+    {
+      "id": "AT-34C82D-7-1",
+      "seq": 7,
+      "mode": "current-access",
+      "paths": [],
+      "action": "update",
+      "device": "managed-blair",
+      "account": "cl-blair",
+      "reasons": [
+        "NO_MATCHING_GRANT"
+      ],
+      "session": "SES-34C82D-1",
+      "decision": "deny",
+      "resource": "R-CASE",
+      "revision": 7,
+      "memberships": [
+        "GC-JUN",
+        "GC-READ"
+      ]
+    },
+    {
+      "id": "AT-34C82D-18-1",
+      "seq": 18,
+      "mode": "current-access",
+      "paths": [
+        {
+          "kind": "acl",
+          "group": "GA-ALL",
+          "scope": "R-HAND"
+        }
+      ],
+      "action": "read",
+      "device": "managed-jamie",
+      "account": "ad-jamie",
+      "reasons": [
+        "ALLOW"
+      ],
+      "session": "SES-34C82D-17",
+      "decision": "allow",
+      "resource": "R-HAND",
+      "revision": 18,
+      "memberships": [
+        "GA-ALL",
+        "GA-SUP"
+      ]
+    },
+    {
+      "id": "AT-34C82D-21-1",
+      "seq": 21,
+      "mode": "current-access",
+      "paths": [],
+      "action": "read",
+      "device": null,
+      "account": "ad-jamie",
+      "reasons": [
+        "ACCOUNT_DISABLED"
+      ],
+      "session": null,
+      "decision": "deny",
+      "resource": "R-HAND",
+      "revision": 21,
+      "memberships": [
+        "GA-ALL",
+        "GA-SUP"
+      ]
+    },
+    {
+      "id": "AT-34C82D-24-1",
+      "seq": 24,
+      "mode": "current-access",
+      "paths": [
+        {
+          "kind": "acl",
+          "group": "GA-ALL",
+          "scope": "R-HAND"
+        }
+      ],
+      "action": "read",
+      "device": "managed-jamie",
+      "account": "ad-jamie",
+      "reasons": [
+        "ALLOW"
+      ],
+      "session": "SES-34C82D-23",
+      "decision": "allow",
+      "resource": "R-HAND",
+      "revision": 24,
+      "memberships": [
+        "GA-ALL",
+        "GA-SUP"
+      ]
+    },
+    {
+      "id": "AT-34C82D-32-1",
+      "seq": 32,
+      "mode": "current-access",
+      "paths": [
+        {
+          "kind": "role",
+          "role": "RL-READ",
+          "group": "GC-READ",
+          "scope": "R-CASE",
+          "assignment": "AS-02"
+        }
+      ],
+      "action": "read",
+      "device": "managed-blair",
+      "account": "cl-blair",
+      "reasons": [
+        "ALLOW"
+      ],
+      "session": "SES-34C82D-31",
+      "decision": "allow",
+      "resource": "R-CASE",
+      "revision": 32,
+      "memberships": [
+        "GC-JUN",
+        "GC-READ"
+      ]
+    },
+    {
+      "id": "AT-34C82D-33-1",
+      "seq": 33,
+      "mode": "current-access",
+      "paths": [],
+      "action": "update",
+      "device": "managed-blair",
+      "account": "cl-blair",
+      "reasons": [
+        "NO_MATCHING_GRANT"
+      ],
+      "session": "SES-34C82D-31",
+      "decision": "deny",
+      "resource": "R-CASE",
+      "revision": 33,
+      "memberships": [
+        "GC-JUN",
+        "GC-READ"
+      ]
+    },
+    {
+      "id": "AT-34C82D-35-1",
+      "seq": 35,
+      "mode": "current-access",
+      "paths": [
+        {
+          "kind": "role",
+          "role": "RL-PRIV",
+          "group": "GC-PRIV",
+          "scope": "R-QUEUE",
+          "assignment": "AS-07"
+        }
+      ],
+      "action": "read",
+      "device": "managed-casey",
+      "account": "cl-casey",
+      "reasons": [
+        "ALLOW"
+      ],
+      "session": "SES-34C82D-34",
+      "decision": "allow",
+      "resource": "R-QUEUE",
+      "revision": 35,
+      "memberships": [
+        "GC-PRIV"
+      ]
+    },
+    {
+      "id": "AT-34C82D-36-1",
+      "seq": 36,
+      "mode": "current-access",
+      "paths": [
+        {
+          "kind": "role",
+          "role": "RL-PRIV",
+          "group": "GC-PRIV",
+          "scope": "R-QUEUE",
+          "assignment": "AS-07"
+        }
+      ],
+      "action": "update",
+      "device": "managed-casey",
+      "account": "cl-casey",
+      "reasons": [
+        "ALLOW"
+      ],
+      "session": "SES-34C82D-34",
+      "decision": "allow",
+      "resource": "R-QUEUE",
+      "revision": 36,
+      "memberships": [
+        "GC-PRIV"
+      ]
+    },
+    {
+      "id": "AT-34C82D-37-1",
+      "seq": 37,
+      "mode": "current-access",
+      "paths": [
+        {
+          "kind": "role",
+          "role": "RL-PRIV",
+          "group": "GC-PRIV",
+          "scope": "R-AUD",
+          "assignment": "AS-08"
+        }
+      ],
+      "action": "delete",
+      "device": "managed-casey",
+      "account": "cl-casey",
+      "reasons": [
+        "ALLOW"
+      ],
+      "session": "SES-34C82D-34",
+      "decision": "allow",
+      "resource": "R-AUD",
+      "revision": 37,
+      "memberships": [
+        "GC-PRIV"
+      ]
+    },
+    {
+      "id": "AT-34C82D-38-1",
+      "seq": 38,
+      "mode": "current-access",
+      "paths": [],
+      "action": "manage_sensitive_groups",
+      "device": "managed-casey",
+      "account": "cl-casey",
+      "reasons": [
+        "NO_MATCHING_GRANT"
+      ],
+      "session": "SES-34C82D-34",
+      "decision": "deny",
+      "resource": "R-DIR",
+      "revision": 38,
+      "memberships": [
+        "GC-PRIV"
+      ]
+    },
+    {
+      "id": "AT-34C82D-40-1",
+      "seq": 40,
+      "mode": "current-access",
+      "paths": [],
+      "action": "read",
+      "device": "managed-emi",
+      "account": "cl-emi",
+      "reasons": [
+        "NO_MATCHING_GRANT"
+      ],
+      "session": "SES-34C82D-39",
+      "decision": "deny",
+      "resource": "R-AUD",
+      "revision": 40,
+      "memberships": []
+    },
+    {
+      "id": "AT-34C82D-41-1",
+      "seq": 41,
+      "mode": "current-access",
+      "paths": [],
+      "action": "export",
+      "device": "managed-emi",
+      "account": "cl-emi",
+      "reasons": [
+        "NO_MATCHING_GRANT"
+      ],
+      "session": "SES-34C82D-39",
+      "decision": "deny",
+      "resource": "R-AUD",
+      "revision": 41,
+      "memberships": []
+    },
+    {
+      "id": "AT-34C82D-42-1",
+      "seq": 42,
+      "mode": "current-access",
+      "paths": [],
+      "action": "delete",
+      "device": "managed-emi",
+      "account": "cl-emi",
+      "reasons": [
+        "NO_MATCHING_GRANT"
+      ],
+      "session": "SES-34C82D-39",
+      "decision": "deny",
+      "resource": "R-AUD",
+      "revision": 42,
+      "memberships": []
+    },
+    {
+      "id": "AT-34C82D-44-1",
+      "seq": 44,
+      "mode": "current-access",
+      "paths": [
+        {
+          "kind": "role",
+          "role": "RL-AUD",
+          "group": "GC-AUD",
+          "scope": "R-AUD",
+          "assignment": "AS-05"
+        }
+      ],
+      "action": "read",
+      "device": "managed-blair",
+      "account": "cl-blair",
+      "reasons": [
+        "ALLOW"
+      ],
+      "session": "SES-34C82D-31",
+      "decision": "allow",
+      "resource": "R-AUD",
+      "revision": 44,
+      "memberships": [
+        "GC-AUD",
+        "GC-JUN",
+        "GC-READ"
+      ]
+    },
+    {
+      "id": "AT-34C82D-46-1",
+      "seq": 46,
+      "mode": "current-access",
+      "paths": [],
+      "action": "read",
+      "device": "managed-blair",
+      "account": "cl-blair",
+      "reasons": [
+        "NO_MATCHING_GRANT"
+      ],
+      "session": "SES-34C82D-31",
+      "decision": "deny",
+      "resource": "R-AUD",
+      "revision": 46,
+      "memberships": [
+        "GC-JUN",
+        "GC-READ"
+      ]
+    },
+    {
+      "id": "AT-34C82D-48-1",
+      "seq": 48,
+      "mode": "current-access",
+      "paths": [],
+      "action": "read",
+      "device": "managed-casey",
+      "account": "cl-casey",
+      "reasons": [
+        "NO_MATCHING_GRANT"
+      ],
+      "session": "SES-34C82D-47",
+      "decision": "deny",
+      "resource": "R-ABAC",
+      "revision": 48,
+      "memberships": [
+        "GC-PRIV"
+      ]
+    },
+    {
+      "id": "AT-34C82D-49-1",
+      "seq": 49,
+      "mode": "abac-what-if",
+      "paths": [],
+      "action": "read",
+      "device": "managed-casey",
+      "account": "cl-casey",
+      "reasons": [
+        "NO_MATCHING_GRANT"
+      ],
+      "session": "SES-34C82D-47",
+      "decision": "deny",
+      "resource": "R-ABAC",
+      "revision": 49,
+      "overrides": {
+        "deviceTrust": "unmanaged"
+      },
+      "memberships": [
+        "GC-PRIV"
+      ]
+    },
+    {
+      "id": "AT-34C82D-50-1",
+      "seq": 50,
+      "mode": "abac-what-if",
+      "paths": [],
+      "action": "read",
+      "device": "managed-casey",
+      "account": "cl-casey",
+      "reasons": [
+        "NO_MATCHING_GRANT"
+      ],
+      "session": "SES-34C82D-47",
+      "decision": "deny",
+      "resource": "R-ABAC",
+      "revision": 50,
+      "overrides": {
+        "classification": "Confidential"
+      },
+      "memberships": [
+        "GC-PRIV"
+      ]
+    },
+    {
+      "id": "AT-34C82D-51-1",
+      "seq": 51,
+      "mode": "abac-what-if",
+      "paths": [],
+      "action": "read",
+      "device": "managed-casey",
+      "account": "cl-casey",
+      "reasons": [
+        "NO_MATCHING_GRANT"
+      ],
+      "session": "SES-34C82D-47",
+      "decision": "deny",
+      "resource": "R-ABAC",
+      "revision": 51,
+      "overrides": {
+        "department": "DEP-AUD"
+      },
+      "memberships": [
+        "GC-PRIV"
+      ]
+    },
+    {
+      "id": "AT-34C82D-52-1",
+      "seq": 52,
+      "mode": "abac-what-if",
+      "paths": [],
+      "action": "read",
+      "device": "managed-casey",
+      "account": "cl-casey",
+      "reasons": [
+        "NO_MATCHING_GRANT"
+      ],
+      "session": "SES-34C82D-47",
+      "decision": "deny",
+      "resource": "R-ABAC",
+      "revision": 52,
+      "overrides": {
+        "classification": "Confidential"
+      },
+      "memberships": [
+        "GC-PRIV"
+      ]
+    },
+    {
+      "id": "AT-34C82D-53-1",
+      "seq": 53,
+      "mode": "abac-what-if",
+      "paths": [],
+      "action": "read",
+      "device": "managed-casey",
+      "account": "cl-casey",
+      "reasons": [
+        "NO_MATCHING_GRANT"
+      ],
+      "session": "SES-34C82D-47",
+      "decision": "deny",
+      "resource": "R-ABAC",
+      "revision": 53,
+      "overrides": {
+        "deviceTrust": "unmanaged"
+      },
+      "memberships": [
+        "GC-PRIV"
+      ]
+    },
+    {
+      "id": "AT-34C82D-54-1",
+      "seq": 54,
+      "mode": "abac-what-if",
+      "paths": [],
+      "action": "read",
+      "device": "managed-casey",
+      "account": "cl-casey",
+      "reasons": [
+        "NO_MATCHING_GRANT"
+      ],
+      "session": "SES-34C82D-47",
+      "decision": "deny",
+      "resource": "R-ABAC",
+      "revision": 54,
+      "overrides": {
+        "department": "DEP-AUD"
+      },
+      "memberships": [
+        "GC-PRIV"
+      ]
+    },
+    {
+      "id": "AT-34C82D-55-1",
+      "seq": 55,
+      "mode": "abac-what-if",
+      "paths": [],
+      "action": "read",
+      "device": "managed-casey",
+      "account": "cl-casey",
+      "reasons": [
+        "NO_MATCHING_GRANT"
+      ],
+      "session": "SES-34C82D-47",
+      "decision": "deny",
+      "resource": "R-ABAC",
+      "revision": 55,
+      "overrides": {
+        "classification": "Confidential"
+      },
+      "memberships": [
+        "GC-PRIV"
+      ]
+    },
+    {
+      "id": "AT-34C82D-63-1",
+      "seq": 63,
+      "mode": "current-access",
+      "paths": [
+        {
+          "kind": "role",
+          "role": "RL-RESP",
+          "group": "GC-RESP",
+          "scope": "R-ABAC",
+          "assignment": "AS-04"
+        }
+      ],
+      "action": "read",
+      "device": "managed-casey",
+      "account": "cl-casey",
+      "reasons": [
+        "ALLOW"
+      ],
+      "session": "SES-34C82D-47",
+      "decision": "allow",
+      "resource": "R-ABAC",
+      "revision": 63,
+      "attributes": {
+        "department": "DEP-RESP",
+        "deviceTrust": "managed",
+        "classification": "Internal"
+      },
+      "memberships": [
+        "GC-RESP"
+      ]
+    },
+    {
+      "id": "AT-34C82D-64-1",
+      "seq": 64,
+      "mode": "current-access",
+      "paths": [],
+      "action": "delete",
+      "device": "managed-casey",
+      "account": "cl-casey",
+      "reasons": [
+        "NO_MATCHING_GRANT"
+      ],
+      "session": "SES-34C82D-47",
+      "decision": "deny",
+      "resource": "R-AUD",
+      "revision": 64,
+      "memberships": [
+        "GC-RESP"
+      ]
+    },
+    {
+      "id": "AT-34C82D-65-1",
+      "seq": 65,
+      "mode": "current-access",
+      "paths": [
+        {
+          "kind": "role",
+          "role": "RL-AUD",
+          "group": "GC-AUD",
+          "scope": "R-AUD",
+          "assignment": "AS-05"
+        }
+      ],
+      "action": "read",
+      "device": "managed-emi",
+      "account": "cl-emi",
+      "reasons": [
+        "ALLOW"
+      ],
+      "session": "SES-34C82D-39",
+      "decision": "allow",
+      "resource": "R-AUD",
+      "revision": 65,
+      "memberships": [
+        "GC-AUD"
+      ]
+    },
+    {
+      "id": "AT-34C82D-66-1",
+      "seq": 66,
+      "mode": "current-access",
+      "paths": [
+        {
+          "kind": "role",
+          "role": "RL-AUD",
+          "group": "GC-AUD",
+          "scope": "R-AUD",
+          "assignment": "AS-05"
+        }
+      ],
+      "action": "export",
+      "device": "managed-emi",
+      "account": "cl-emi",
+      "reasons": [
+        "ALLOW"
+      ],
+      "session": "SES-34C82D-39",
+      "decision": "allow",
+      "resource": "R-AUD",
+      "revision": 66,
+      "memberships": [
+        "GC-AUD"
+      ]
+    },
+    {
+      "id": "AT-34C82D-67-1",
+      "seq": 67,
+      "mode": "current-access",
+      "paths": [],
+      "action": "delete",
+      "device": "managed-emi",
+      "account": "cl-emi",
+      "reasons": [
+        "NO_MATCHING_GRANT"
+      ],
+      "session": "SES-34C82D-39",
+      "decision": "deny",
+      "resource": "R-AUD",
+      "revision": 67,
+      "memberships": [
+        "GC-AUD"
+      ]
+    },
+    {
+      "id": "AT-34C82D-79-1",
+      "seq": 79,
+      "mode": "current-access",
+      "paths": [
+        {
+          "kind": "role",
+          "role": "RL-READ",
+          "group": "GC-READ",
+          "scope": "R-CASE",
+          "assignment": "AS-02"
+        }
+      ],
+      "action": "read",
+      "device": "managed-jamie",
+      "account": "cl-jamie",
+      "reasons": [
+        "ALLOW"
+      ],
+      "session": "SES-34C82D-76",
+      "decision": "allow",
+      "resource": "R-CASE",
+      "revision": 79,
+      "memberships": [
+        "GC-JUN",
+        "GC-READ"
+      ]
+    },
+    {
+      "id": "AT-34C82D-80-1",
+      "seq": 80,
+      "mode": "current-access",
+      "paths": [],
+      "action": "update",
+      "device": "managed-jamie",
+      "account": "cl-jamie",
+      "reasons": [
+        "NO_MATCHING_GRANT"
+      ],
+      "session": "SES-34C82D-76",
+      "decision": "deny",
+      "resource": "R-CASE",
+      "revision": 80,
+      "memberships": [
+        "GC-JUN",
+        "GC-READ"
+      ]
+    },
+    {
+      "id": "AT-34C82D-83-1",
+      "seq": 83,
+      "mode": "current-access",
+      "paths": [
+        {
+          "kind": "acl",
+          "group": "GA-RESP",
+          "scope": "R-ADRESP"
+        }
+      ],
+      "action": "read",
+      "device": "managed-alex",
+      "account": "ad-alex",
+      "reasons": [
+        "ALLOW"
+      ],
+      "session": "SES-34C82D-82",
+      "decision": "allow",
+      "resource": "R-ADRESP",
+      "revision": 83,
+      "memberships": [
+        "GA-ALL",
+        "GA-RESP"
+      ]
+    },
+    {
+      "id": "AT-34C82D-85-1",
+      "seq": 85,
+      "mode": "current-access",
+      "paths": [
+        {
+          "kind": "role",
+          "role": "RL-RESP",
+          "group": "GC-RESP",
+          "scope": "R-QUEUE",
+          "assignment": "AS-03"
+        }
+      ],
+      "action": "read",
+      "device": "managed-alex",
+      "account": "cl-alex",
+      "reasons": [
+        "ALLOW"
+      ],
+      "session": "SES-34C82D-84",
+      "decision": "allow",
+      "resource": "R-QUEUE",
+      "revision": 85,
+      "memberships": [
+        "GC-RESP"
+      ]
+    },
+    {
+      "id": "AT-34C82D-91-1",
+      "seq": 91,
+      "mode": "current-access",
+      "paths": [],
+      "action": "read",
+      "device": "managed-alex",
+      "account": "ad-alex",
+      "reasons": [
+        "NO_MATCHING_GRANT"
+      ],
+      "session": "SES-34C82D-90",
+      "decision": "deny",
+      "resource": "R-ADRESP",
+      "revision": 91,
+      "memberships": [
+        "GA-ALL",
+        "GA-AUD"
+      ]
+    },
+    {
+      "id": "AT-34C82D-92-1",
+      "seq": 92,
+      "mode": "current-access",
+      "paths": [
+        {
+          "kind": "acl",
+          "group": "GA-AUD",
+          "scope": "R-ADAUD"
+        }
+      ],
+      "action": "read",
+      "device": "managed-alex",
+      "account": "ad-alex",
+      "reasons": [
+        "ALLOW"
+      ],
+      "session": "SES-34C82D-90",
+      "decision": "allow",
+      "resource": "R-ADAUD",
+      "revision": 92,
+      "memberships": [
+        "GA-ALL",
+        "GA-AUD"
+      ]
+    },
+    {
+      "id": "AT-34C82D-93-1",
+      "seq": 93,
+      "mode": "current-access",
+      "paths": [
+        {
+          "kind": "acl",
+          "group": "GA-ALL",
+          "scope": "R-HAND"
+        }
+      ],
+      "action": "read",
+      "device": "managed-alex",
+      "account": "ad-alex",
+      "reasons": [
+        "ALLOW"
+      ],
+      "session": "SES-34C82D-90",
+      "decision": "allow",
+      "resource": "R-HAND",
+      "revision": 93,
+      "memberships": [
+        "GA-ALL",
+        "GA-AUD"
+      ]
+    },
+    {
+      "id": "AT-34C82D-97-1",
+      "seq": 97,
+      "mode": "current-access",
+      "paths": [],
+      "action": "read",
+      "device": "managed-alex",
+      "account": "cl-alex",
+      "reasons": [
+        "NO_MATCHING_GRANT"
+      ],
+      "session": "SES-34C82D-96",
+      "decision": "deny",
+      "resource": "R-QUEUE",
+      "revision": 97,
+      "memberships": [
+        "GC-AUD"
+      ]
+    },
+    {
+      "id": "AT-34C82D-98-1",
+      "seq": 98,
+      "mode": "current-access",
+      "paths": [
+        {
+          "kind": "role",
+          "role": "RL-AUD",
+          "group": "GC-AUD",
+          "scope": "R-AUD",
+          "assignment": "AS-05"
+        }
+      ],
+      "action": "read",
+      "device": "managed-alex",
+      "account": "cl-alex",
+      "reasons": [
+        "ALLOW"
+      ],
+      "session": "SES-34C82D-96",
+      "decision": "allow",
+      "resource": "R-AUD",
+      "revision": 98,
+      "memberships": [
+        "GC-AUD"
+      ]
+    },
+    {
+      "id": "AT-34C82D-101-1",
+      "seq": 101,
+      "mode": "current-access",
+      "paths": [
+        {
+          "kind": "role",
+          "role": "RL-READ",
+          "group": "GC-READ",
+          "scope": "R-CASE",
+          "assignment": "AS-02"
+        }
+      ],
+      "action": "read",
+      "device": "managed-finley",
+      "account": "cl-finley",
+      "reasons": [
+        "ALLOW"
+      ],
+      "session": "SES-34C82D-100",
+      "decision": "allow",
+      "resource": "R-CASE",
+      "revision": 101,
+      "memberships": [
+        "GC-READ"
+      ]
+    },
+    {
+      "id": "AT-34C82D-110-1",
+      "seq": 110,
+      "mode": "current-access",
+      "paths": [],
+      "action": "read",
+      "device": "managed-finley",
+      "account": "cl-finley",
+      "reasons": [
+        "ACCOUNT_DISABLED"
+      ],
+      "session": "SES-34C82D-100",
+      "decision": "deny",
+      "resource": "R-CASE",
+      "revision": 110,
+      "memberships": []
+    },
+    {
+      "id": "AT-34C82D-118-1",
+      "seq": 118,
+      "mode": "current-access",
+      "paths": [
+        {
+          "kind": "role",
+          "role": "RL-AZREAD",
+          "group": "GC-AZ",
+          "scope": "RG-LAB",
+          "assignment": "AS-11"
+        }
+      ],
+      "action": "read_metadata",
+      "device": "managed-blair",
+      "account": "cl-blair",
+      "reasons": [
+        "ALLOW"
+      ],
+      "session": "SES-34C82D-117",
+      "decision": "allow",
+      "resource": "R-VM1",
+      "revision": 118,
+      "memberships": [
+        "GC-AZ",
+        "GC-JUN",
+        "GC-READ"
+      ]
+    },
+    {
+      "id": "AT-34C82D-119-1",
+      "seq": 119,
+      "mode": "current-access",
+      "paths": [],
+      "action": "stop",
+      "device": "managed-blair",
+      "account": "cl-blair",
+      "reasons": [
+        "NO_MATCHING_GRANT"
+      ],
+      "session": "SES-34C82D-117",
+      "decision": "deny",
+      "resource": "R-VM1",
+      "revision": 119,
+      "memberships": [
+        "GC-AZ",
+        "GC-JUN",
+        "GC-READ"
+      ]
+    },
+    {
+      "id": "AT-34C82D-120-1",
+      "seq": 120,
+      "mode": "current-access",
+      "paths": [
+        {
+          "kind": "role",
+          "role": "RL-AZREAD",
+          "group": "GC-AZ",
+          "scope": "RG-LAB",
+          "assignment": "AS-11"
+        }
+      ],
+      "action": "read_metadata",
+      "device": "managed-blair",
+      "account": "cl-blair",
+      "reasons": [
+        "ALLOW"
+      ],
+      "session": "SES-34C82D-117",
+      "decision": "allow",
+      "resource": "R-VM1",
+      "revision": 120,
+      "memberships": [
+        "GC-AZ",
+        "GC-JUN",
+        "GC-READ"
+      ]
+    },
+    {
+      "id": "AT-34C82D-121-1",
+      "seq": 121,
+      "mode": "current-access",
+      "paths": [],
+      "action": "read_metadata",
+      "device": "managed-blair",
+      "account": "cl-blair",
+      "reasons": [
+        "NO_MATCHING_GRANT"
+      ],
+      "session": "SES-34C82D-117",
+      "decision": "deny",
+      "resource": "R-VM2",
+      "revision": 121,
+      "memberships": [
+        "GC-AZ",
+        "GC-JUN",
+        "GC-READ"
+      ]
+    },
+    {
+      "id": "AT-34C82D-125-1",
+      "seq": 125,
+      "mode": "current-access",
+      "paths": [],
+      "action": "read",
+      "device": "managed-alex",
+      "account": "cl-alex",
+      "reasons": [
+        "NO_MATCHING_GRANT"
+      ],
+      "session": "SES-34C82D-124",
+      "decision": "deny",
+      "resource": "R-QUEUE",
+      "revision": 125,
+      "memberships": [
+        "GC-AUD"
+      ]
+    },
+    {
+      "id": "AT-34C82D-126-1",
+      "seq": 126,
+      "mode": "current-access",
+      "paths": [
+        {
+          "kind": "role",
+          "role": "RL-AUD",
+          "group": "GC-AUD",
+          "scope": "R-AUD",
+          "assignment": "AS-05"
+        }
+      ],
+      "action": "read",
+      "device": "managed-alex",
+      "account": "cl-alex",
+      "reasons": [
+        "ALLOW"
+      ],
+      "session": "SES-34C82D-124",
+      "decision": "allow",
+      "resource": "R-AUD",
+      "revision": 126,
+      "memberships": [
+        "GC-AUD"
+      ]
+    },
+    {
+      "id": "AT-34C82D-128-1",
+      "seq": 128,
+      "mode": "current-access",
+      "paths": [],
+      "action": "read",
+      "device": "managed-alex",
+      "account": "ad-alex",
+      "reasons": [
+        "NO_MATCHING_GRANT"
+      ],
+      "session": "SES-34C82D-127",
+      "decision": "deny",
+      "resource": "R-ADRESP",
+      "revision": 128,
+      "memberships": [
+        "GA-ALL",
+        "GA-AUD"
+      ]
+    },
+    {
+      "id": "AT-34C82D-129-1",
+      "seq": 129,
+      "mode": "current-access",
+      "paths": [
+        {
+          "kind": "acl",
+          "group": "GA-AUD",
+          "scope": "R-ADAUD"
+        }
+      ],
+      "action": "read",
+      "device": "managed-alex",
+      "account": "ad-alex",
+      "reasons": [
+        "ALLOW"
+      ],
+      "session": "SES-34C82D-127",
+      "decision": "allow",
+      "resource": "R-ADAUD",
+      "revision": 129,
+      "memberships": [
+        "GA-ALL",
+        "GA-AUD"
+      ]
+    },
+    {
+      "id": "AT-34C82D-130-1",
+      "seq": 130,
+      "mode": "current-access",
+      "paths": [
+        {
+          "kind": "acl",
+          "group": "GA-ALL",
+          "scope": "R-HAND"
+        }
+      ],
+      "action": "read",
+      "device": "managed-alex",
+      "account": "ad-alex",
+      "reasons": [
+        "ALLOW"
+      ],
+      "session": "SES-34C82D-127",
+      "decision": "allow",
+      "resource": "R-HAND",
+      "revision": 130,
+      "memberships": [
+        "GA-ALL",
+        "GA-AUD"
+      ]
+    },
+    {
+      "id": "AT-34C82D-131-1",
+      "seq": 131,
+      "mode": "current-access",
+      "paths": [],
+      "action": "read",
+      "device": "managed-alex",
+      "account": "ad-alex",
+      "reasons": [
+        "NO_MATCHING_GRANT"
+      ],
+      "session": "SES-34C82D-123",
+      "decision": "deny",
+      "resource": "R-ADRESP",
+      "revision": 131,
+      "memberships": [
+        "GA-ALL",
+        "GA-AUD"
+      ]
+    },
+    {
+      "id": "AT-34C82D-132-1",
+      "seq": 132,
+      "mode": "current-access",
+      "paths": [],
+      "action": "read",
+      "device": "managed-alex",
+      "account": "cl-alex",
+      "reasons": [
+        "NO_MATCHING_GRANT"
+      ],
+      "session": "SES-34C82D-124",
+      "decision": "deny",
+      "resource": "R-ABAC",
+      "revision": 132,
+      "memberships": [
+        "GC-AUD"
+      ]
+    }
+  ]
+}
