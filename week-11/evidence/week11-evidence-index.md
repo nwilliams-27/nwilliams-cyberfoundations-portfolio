@@ -183,3 +183,10 @@ Simulator captures from attempt 34C82D. Hash detects content changes; it is not 
 - Completed case file / versioned export
 - SHA-256 357a3d03b702bab1abaf21b6b58b5744b8c91f14e460c686a4731a1626749119
 - Caption: The selected sign-in records show five failed password sign-ins for Casey from an unknown-device in Remote-B (S004 to S008) followed by a password-only success with no MFA challenge recorded (S009), two sign ins for Alex from different locations two minutes apart (S010 and S011) and Blair’s single failed sign-in followed by a successful sign in with MFA (S002 and S003). The selected audit records show Casey adding herself to Privileged-Operators with no ticket (A002, sharing correlation ID C009 with S009), a ticketed removal of Alex from Old-Response-Team (A003) and a ticketed group add for Blair (A001).
+
+## EV-34C82D-027
+
+- Slot E13 · M05 · revision 134
+- Alex before/after access and changes
+- SHA-256 ce4f4d4c35ab4bb142299f527302af43743fae6fe987dc9d2232cc96c51b418d
+- Caption: Under T502, Alex’s department was changed from Response to Audit on the person record, ad-alex and cl-alex. ad-alex was moved to OU-AUD, the old Response memberships were removed and audit memberships were added in both directories. Before the transfer Alex had read access to Response Share and Response Queue. After the transfer, Alex was denied read access to Response Share and Response Queue and allowed read access on Audit Share, Audit Evidence and Staff Handbook. Export access was also allowed in Audit Evidence.

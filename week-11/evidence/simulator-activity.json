@@ -3034,6 +3034,30 @@
       "actorKind": "learner",
       "targetType": "resource",
       "correlation": "LC-34C82D-132"
+    },
+    {
+      "id": "LA-34C82D-134-2",
+      "seq": 134,
+      "time": "2026-09-28T15:14:00Z",
+      "after": {
+        "mode": "current-access",
+        "test": "AT-34C82D-134-1",
+        "action": "export",
+        "account": "cl-alex",
+        "reasons": [
+          "ALLOW"
+        ],
+        "decision": "allow"
+      },
+      "before": null,
+      "result": "accepted",
+      "target": "R-AUD",
+      "ticket": null,
+      "changed": [],
+      "activity": "access_test",
+      "actorKind": "learner",
+      "targetType": "resource",
+      "correlation": "LC-34C82D-134"
     }
   ],
   "accessTests": [
@@ -4283,6 +4307,33 @@
       "decision": "deny",
       "resource": "R-ABAC",
       "revision": 132,
+      "memberships": [
+        "GC-AUD"
+      ]
+    },
+    {
+      "id": "AT-34C82D-134-1",
+      "seq": 134,
+      "mode": "current-access",
+      "paths": [
+        {
+          "kind": "role",
+          "role": "RL-AUD",
+          "group": "GC-AUD",
+          "scope": "R-AUD",
+          "assignment": "AS-05"
+        }
+      ],
+      "action": "export",
+      "device": "managed-alex",
+      "account": "cl-alex",
+      "reasons": [
+        "ALLOW"
+      ],
+      "session": "SES-34C82D-124",
+      "decision": "allow",
+      "resource": "R-AUD",
+      "revision": 134,
       "memberships": [
         "GC-AUD"
       ]
