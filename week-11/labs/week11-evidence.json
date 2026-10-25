@@ -3026,7 +3026,7 @@
     "captured_revision": 98,
     "content_hash": "f68dd3dd2469385a7b57210e93c7dbe86ec50bdb363b42403b5ee5a7e9d332ba",
     "origin": "simulator_capture",
-    "caption": "\nUnder T502, Alex’s department was changed from Response to Audit on the person record, ad-alex and cl-alex. ad-alex was moved to OU-AUD, the old Response memberships were removed and audit memberships were added in both directories. Before the transfer Alex had read access to Response Share and Response Queue. After the transfer, Alex was denied read access to Response Share and Response Queue and allowed read access on Audit Share, Audit Evidence and Staff Handbook.\n",
+    "caption": "Under T502, Alex’s department was changed from Response to Audit on the person record, ad-alex and cl-alex. ad-alex was moved to OU-AUD, the old Response memberships were removed and audit memberships were added in both directories. Before the transfer Alex had read access to Response Share and Response Queue. After the transfer, Alex was denied read access to Response Share and Response Queue and allowed read access on Audit Share, Audit Evidence and Staff Handbook.\n",
     "snapshot": {
       "seed": "chic-w11-v1",
       "tests": [
@@ -4982,6 +4982,669 @@
         }
       ],
       "captured_revision": 133
+    }
+  },
+  {
+    "id": "EV-34C82D-027",
+    "slot": "E13",
+    "mission": "M05",
+    "title": "Alex before/after access and changes",
+    "captured_revision": 134,
+    "content_hash": "ce4f4d4c35ab4bb142299f527302af43743fae6fe987dc9d2232cc96c51b418d",
+    "origin": "simulator_capture",
+    "caption": "Under T502, Alex’s department was changed from Response to Audit on the person record, ad-alex and cl-alex. ad-alex was moved to OU-AUD, the old Response memberships were removed and audit memberships were added in both directories. Before the transfer Alex had read access to Response Share and Response Queue. After the transfer, Alex was denied read access to Response Share and Response Queue and allowed read access on Audit Share, Audit Evidence and Staff Handbook. Export access was also allowed in Audit Evidence.\n",
+    "snapshot": {
+      "seed": "chic-w11-v1",
+      "tests": [
+        {
+          "id": "AT-34C82D-83-1",
+          "seq": 83,
+          "mode": "current-access",
+          "paths": [
+            {
+              "kind": "acl",
+              "group": "GA-RESP",
+              "scope": "R-ADRESP"
+            }
+          ],
+          "action": "read",
+          "device": "managed-alex",
+          "account": "ad-alex",
+          "reasons": [
+            "ALLOW"
+          ],
+          "session": "SES-34C82D-82",
+          "decision": "allow",
+          "resource": "R-ADRESP",
+          "revision": 83,
+          "memberships": [
+            "GA-ALL",
+            "GA-RESP"
+          ]
+        },
+        {
+          "id": "AT-34C82D-85-1",
+          "seq": 85,
+          "mode": "current-access",
+          "paths": [
+            {
+              "kind": "role",
+              "role": "RL-RESP",
+              "group": "GC-RESP",
+              "scope": "R-QUEUE",
+              "assignment": "AS-03"
+            }
+          ],
+          "action": "read",
+          "device": "managed-alex",
+          "account": "cl-alex",
+          "reasons": [
+            "ALLOW"
+          ],
+          "session": "SES-34C82D-84",
+          "decision": "allow",
+          "resource": "R-QUEUE",
+          "revision": 85,
+          "memberships": [
+            "GC-RESP"
+          ]
+        },
+        {
+          "id": "AT-34C82D-91-1",
+          "seq": 91,
+          "mode": "current-access",
+          "paths": [],
+          "action": "read",
+          "device": "managed-alex",
+          "account": "ad-alex",
+          "reasons": [
+            "NO_MATCHING_GRANT"
+          ],
+          "session": "SES-34C82D-90",
+          "decision": "deny",
+          "resource": "R-ADRESP",
+          "revision": 91,
+          "memberships": [
+            "GA-ALL",
+            "GA-AUD"
+          ]
+        },
+        {
+          "id": "AT-34C82D-92-1",
+          "seq": 92,
+          "mode": "current-access",
+          "paths": [
+            {
+              "kind": "acl",
+              "group": "GA-AUD",
+              "scope": "R-ADAUD"
+            }
+          ],
+          "action": "read",
+          "device": "managed-alex",
+          "account": "ad-alex",
+          "reasons": [
+            "ALLOW"
+          ],
+          "session": "SES-34C82D-90",
+          "decision": "allow",
+          "resource": "R-ADAUD",
+          "revision": 92,
+          "memberships": [
+            "GA-ALL",
+            "GA-AUD"
+          ]
+        },
+        {
+          "id": "AT-34C82D-93-1",
+          "seq": 93,
+          "mode": "current-access",
+          "paths": [
+            {
+              "kind": "acl",
+              "group": "GA-ALL",
+              "scope": "R-HAND"
+            }
+          ],
+          "action": "read",
+          "device": "managed-alex",
+          "account": "ad-alex",
+          "reasons": [
+            "ALLOW"
+          ],
+          "session": "SES-34C82D-90",
+          "decision": "allow",
+          "resource": "R-HAND",
+          "revision": 93,
+          "memberships": [
+            "GA-ALL",
+            "GA-AUD"
+          ]
+        },
+        {
+          "id": "AT-34C82D-97-1",
+          "seq": 97,
+          "mode": "current-access",
+          "paths": [],
+          "action": "read",
+          "device": "managed-alex",
+          "account": "cl-alex",
+          "reasons": [
+            "NO_MATCHING_GRANT"
+          ],
+          "session": "SES-34C82D-96",
+          "decision": "deny",
+          "resource": "R-QUEUE",
+          "revision": 97,
+          "memberships": [
+            "GC-AUD"
+          ]
+        },
+        {
+          "id": "AT-34C82D-98-1",
+          "seq": 98,
+          "mode": "current-access",
+          "paths": [
+            {
+              "kind": "role",
+              "role": "RL-AUD",
+              "group": "GC-AUD",
+              "scope": "R-AUD",
+              "assignment": "AS-05"
+            }
+          ],
+          "action": "read",
+          "device": "managed-alex",
+          "account": "cl-alex",
+          "reasons": [
+            "ALLOW"
+          ],
+          "session": "SES-34C82D-96",
+          "decision": "allow",
+          "resource": "R-AUD",
+          "revision": 98,
+          "memberships": [
+            "GC-AUD"
+          ]
+        },
+        {
+          "id": "AT-34C82D-125-1",
+          "seq": 125,
+          "mode": "current-access",
+          "paths": [],
+          "action": "read",
+          "device": "managed-alex",
+          "account": "cl-alex",
+          "reasons": [
+            "NO_MATCHING_GRANT"
+          ],
+          "session": "SES-34C82D-124",
+          "decision": "deny",
+          "resource": "R-QUEUE",
+          "revision": 125,
+          "memberships": [
+            "GC-AUD"
+          ]
+        },
+        {
+          "id": "AT-34C82D-126-1",
+          "seq": 126,
+          "mode": "current-access",
+          "paths": [
+            {
+              "kind": "role",
+              "role": "RL-AUD",
+              "group": "GC-AUD",
+              "scope": "R-AUD",
+              "assignment": "AS-05"
+            }
+          ],
+          "action": "read",
+          "device": "managed-alex",
+          "account": "cl-alex",
+          "reasons": [
+            "ALLOW"
+          ],
+          "session": "SES-34C82D-124",
+          "decision": "allow",
+          "resource": "R-AUD",
+          "revision": 126,
+          "memberships": [
+            "GC-AUD"
+          ]
+        },
+        {
+          "id": "AT-34C82D-128-1",
+          "seq": 128,
+          "mode": "current-access",
+          "paths": [],
+          "action": "read",
+          "device": "managed-alex",
+          "account": "ad-alex",
+          "reasons": [
+            "NO_MATCHING_GRANT"
+          ],
+          "session": "SES-34C82D-127",
+          "decision": "deny",
+          "resource": "R-ADRESP",
+          "revision": 128,
+          "memberships": [
+            "GA-ALL",
+            "GA-AUD"
+          ]
+        },
+        {
+          "id": "AT-34C82D-129-1",
+          "seq": 129,
+          "mode": "current-access",
+          "paths": [
+            {
+              "kind": "acl",
+              "group": "GA-AUD",
+              "scope": "R-ADAUD"
+            }
+          ],
+          "action": "read",
+          "device": "managed-alex",
+          "account": "ad-alex",
+          "reasons": [
+            "ALLOW"
+          ],
+          "session": "SES-34C82D-127",
+          "decision": "allow",
+          "resource": "R-ADAUD",
+          "revision": 129,
+          "memberships": [
+            "GA-ALL",
+            "GA-AUD"
+          ]
+        },
+        {
+          "id": "AT-34C82D-130-1",
+          "seq": 130,
+          "mode": "current-access",
+          "paths": [
+            {
+              "kind": "acl",
+              "group": "GA-ALL",
+              "scope": "R-HAND"
+            }
+          ],
+          "action": "read",
+          "device": "managed-alex",
+          "account": "ad-alex",
+          "reasons": [
+            "ALLOW"
+          ],
+          "session": "SES-34C82D-127",
+          "decision": "allow",
+          "resource": "R-HAND",
+          "revision": 130,
+          "memberships": [
+            "GA-ALL",
+            "GA-AUD"
+          ]
+        },
+        {
+          "id": "AT-34C82D-131-1",
+          "seq": 131,
+          "mode": "current-access",
+          "paths": [],
+          "action": "read",
+          "device": "managed-alex",
+          "account": "ad-alex",
+          "reasons": [
+            "NO_MATCHING_GRANT"
+          ],
+          "session": "SES-34C82D-123",
+          "decision": "deny",
+          "resource": "R-ADRESP",
+          "revision": 131,
+          "memberships": [
+            "GA-ALL",
+            "GA-AUD"
+          ]
+        },
+        {
+          "id": "AT-34C82D-132-1",
+          "seq": 132,
+          "mode": "current-access",
+          "paths": [],
+          "action": "read",
+          "device": "managed-alex",
+          "account": "cl-alex",
+          "reasons": [
+            "NO_MATCHING_GRANT"
+          ],
+          "session": "SES-34C82D-124",
+          "decision": "deny",
+          "resource": "R-ABAC",
+          "revision": 132,
+          "memberships": [
+            "GC-AUD"
+          ]
+        },
+        {
+          "id": "AT-34C82D-134-1",
+          "seq": 134,
+          "mode": "current-access",
+          "paths": [
+            {
+              "kind": "role",
+              "role": "RL-AUD",
+              "group": "GC-AUD",
+              "scope": "R-AUD",
+              "assignment": "AS-05"
+            }
+          ],
+          "action": "export",
+          "device": "managed-alex",
+          "account": "cl-alex",
+          "reasons": [
+            "ALLOW"
+          ],
+          "session": "SES-34C82D-124",
+          "decision": "allow",
+          "resource": "R-AUD",
+          "revision": 134,
+          "memberships": [
+            "GC-AUD"
+          ]
+        }
+      ],
+      "audits": [
+        {
+          "id": "LA-34C82D-86-1",
+          "seq": 86,
+          "time": "2026-09-28T14:26:00Z",
+          "after": "DEP-AUD",
+          "before": "DEP-RESP",
+          "result": "accepted",
+          "target": "P01",
+          "ticket": "T502",
+          "changed": [
+            "department"
+          ],
+          "activity": "department_changed",
+          "actorKind": "learner",
+          "targetType": "person",
+          "correlation": "LC-34C82D-86"
+        },
+        {
+          "id": "LA-34C82D-86-2",
+          "seq": 86,
+          "time": "2026-09-28T14:26:00Z",
+          "after": "DEP-AUD",
+          "before": "DEP-RESP",
+          "result": "accepted",
+          "target": "ad-alex",
+          "ticket": "T502",
+          "changed": [
+            "department"
+          ],
+          "activity": "department_changed",
+          "actorKind": "learner",
+          "targetType": "account",
+          "correlation": "LC-34C82D-86"
+        },
+        {
+          "id": "LA-34C82D-86-3",
+          "seq": 86,
+          "time": "2026-09-28T14:26:00Z",
+          "after": "DEP-AUD",
+          "before": "DEP-RESP",
+          "result": "accepted",
+          "target": "cl-alex",
+          "ticket": "T502",
+          "changed": [
+            "department"
+          ],
+          "activity": "department_changed",
+          "actorKind": "learner",
+          "targetType": "account",
+          "correlation": "LC-34C82D-86"
+        },
+        {
+          "id": "LA-34C82D-87-1",
+          "seq": 87,
+          "time": "2026-09-28T14:27:00Z",
+          "after": {
+            "dn": "CN=Alex Morgan,OU=Audit,OU=Staff,DC=ad,DC=cloudheights,DC=example",
+            "ou": "OU-AUD"
+          },
+          "before": {
+            "dn": "CN=Alex Morgan,OU=Response,OU=Staff,DC=ad,DC=cloudheights,DC=example",
+            "ou": "OU-RESP"
+          },
+          "reason": "T502: move ad-alex to the Audit OU per the approved transfer.",
+          "result": "accepted",
+          "target": "ad-alex",
+          "ticket": "T502",
+          "changed": [
+            "ou",
+            "dn"
+          ],
+          "activity": "ou_changed",
+          "actorKind": "learner",
+          "targetType": "account",
+          "correlation": "LC-34C82D-87"
+        },
+        {
+          "id": "LA-34C82D-88-1",
+          "seq": 88,
+          "time": "2026-09-28T14:28:00Z",
+          "after": [
+            "GA-ALL"
+          ],
+          "before": [
+            "GA-ALL",
+            "GA-RESP"
+          ],
+          "reason": "T502: remove Response-Team, old operational access ends per APP-502.",
+          "result": "accepted",
+          "target": "ad-alex",
+          "ticket": "T502",
+          "changed": [
+            "memberships"
+          ],
+          "activity": "group_member_removed",
+          "actorKind": "learner",
+          "targetType": "account",
+          "correlation": "LC-34C82D-88"
+        },
+        {
+          "id": "LA-34C82D-89-1",
+          "seq": 89,
+          "time": "2026-09-28T14:29:00Z",
+          "after": [
+            "GA-ALL",
+            "GA-AUD"
+          ],
+          "before": [
+            "GA-ALL"
+          ],
+          "reason": "T502: add Audit-Team, audit access approved in APP-502.",
+          "result": "accepted",
+          "target": "ad-alex",
+          "ticket": "T502",
+          "changed": [
+            "memberships"
+          ],
+          "activity": "group_member_added",
+          "actorKind": "learner",
+          "targetType": "account",
+          "correlation": "LC-34C82D-89"
+        },
+        {
+          "id": "LA-34C82D-94-1",
+          "seq": 94,
+          "time": "2026-09-28T14:34:00Z",
+          "after": [],
+          "before": [
+            "GC-RESP"
+          ],
+          "reason": "",
+          "result": "accepted",
+          "target": "cl-alex",
+          "ticket": "T502",
+          "changed": [
+            "memberships"
+          ],
+          "activity": "group_member_removed",
+          "actorKind": "learner",
+          "targetType": "account",
+          "correlation": "LC-34C82D-94"
+        },
+        {
+          "id": "LA-34C82D-95-1",
+          "seq": 95,
+          "time": "2026-09-28T14:35:00Z",
+          "after": [
+            "GC-AUD"
+          ],
+          "before": [],
+          "reason": "",
+          "result": "accepted",
+          "target": "cl-alex",
+          "ticket": "T502",
+          "changed": [
+            "memberships"
+          ],
+          "activity": "group_member_added",
+          "actorKind": "learner",
+          "targetType": "account",
+          "correlation": "LC-34C82D-95"
+        }
+      ],
+      "groups": [],
+      "signins": [],
+      "tickets": [],
+      "accounts": [
+        {
+          "dn": "CN=Alex Morgan,OU=Audit,OU=Staff,DC=ad,DC=cloudheights,DC=example",
+          "ou": "OU-AUD",
+          "dir": "AD",
+          "key": "ad-alex",
+          "mfa": "not_in_scope",
+          "upn": "alex@ad.cloudheights.example",
+          "dept": "DEP-AUD",
+          "groups": [
+            "GA-ALL",
+            "GA-AUD"
+          ],
+          "locked": false,
+          "ouName": "Audit",
+          "person": {
+            "ad": "ad-alex",
+            "key": "P01",
+            "dept": "DEP-AUD",
+            "hrId": "CH-001",
+            "name": "Alex Morgan",
+            "cloud": "cl-alex",
+            "status": "active"
+          },
+          "status": "enabled",
+          "username": "alex",
+          "mustChange": false,
+          "failedCount": 0,
+          "activeSessions": [
+            "SES-34C82D-82",
+            "SES-34C82D-90",
+            "SES-34C82D-123",
+            "SES-34C82D-127"
+          ],
+          "effectiveAccess": [
+            {
+              "paths": [
+                {
+                  "kind": "acl",
+                  "group": "GA-ALL",
+                  "scope": "R-HAND"
+                }
+              ],
+              "action": "read",
+              "resource": "R-HAND"
+            },
+            {
+              "paths": [
+                {
+                  "kind": "acl",
+                  "group": "GA-AUD",
+                  "scope": "R-ADAUD"
+                }
+              ],
+              "action": "read",
+              "resource": "R-ADAUD"
+            }
+          ],
+          "securityRevision": 1,
+          "credentialVersion": 1
+        },
+        {
+          "dn": null,
+          "ou": null,
+          "dir": "CLOUD",
+          "key": "cl-alex",
+          "mfa": "enrolled",
+          "upn": "alex@cvi-training.example",
+          "dept": "DEP-AUD",
+          "groups": [
+            "GC-AUD"
+          ],
+          "locked": false,
+          "ouName": null,
+          "person": {
+            "ad": "ad-alex",
+            "key": "P01",
+            "dept": "DEP-AUD",
+            "hrId": "CH-001",
+            "name": "Alex Morgan",
+            "cloud": "cl-alex",
+            "status": "active"
+          },
+          "status": "enabled",
+          "username": "alex",
+          "mustChange": false,
+          "failedCount": 0,
+          "activeSessions": [
+            "SES-34C82D-84",
+            "SES-34C82D-96",
+            "SES-34C82D-124"
+          ],
+          "effectiveAccess": [
+            {
+              "paths": [
+                {
+                  "kind": "role",
+                  "role": "RL-AUD",
+                  "group": "GC-AUD",
+                  "scope": "R-AUD",
+                  "assignment": "AS-05"
+                }
+              ],
+              "action": "read",
+              "resource": "R-AUD"
+            },
+            {
+              "paths": [
+                {
+                  "kind": "role",
+                  "role": "RL-AUD",
+                  "group": "GC-AUD",
+                  "scope": "R-AUD",
+                  "assignment": "AS-05"
+                }
+              ],
+              "action": "export",
+              "resource": "R-AUD"
+            }
+          ],
+          "securityRevision": 1,
+          "credentialVersion": 1
+        }
+      ],
+      "historical": [],
+      "captured_revision": 134
     }
   }
 ]

@@ -1,12 +1,9 @@
 # Lab 05 — Joiner, Mover, Leaver
 
 **Learner:** N. Williams  
-**Attempt:** attempt 34C82D · seed chic-w11-v1 · state revision 133 · text revision 376
+**Attempt:** attempt 34C82D · seed chic-w11-v1 · state revision 134 · text revision 378
 
 > Training simulation — fictional Cloud Heights accounts and resources. Your actions change only your Week 11 learning attempt. This is not a live AD domain, Microsoft Entra tenant or Azure subscription.
-
-> **DRAFT — incomplete.** Missing:
-> - T502: run Alex's after-transfer tests in both directories.
 
 ## Objective
 
@@ -134,3 +131,6 @@ In this lab, Azure Reader gave Blair read_metadata on the Training-VM only becau
 - **E13 · EV-34C82D-023** — Alex before/after access and changes (captured at revision 130)  
   _What this proves:_ Before the transfer occurs, ad-alex (Active Directory) and cl-alex (Cloud Identity) are in the Response department, with ad-alex in All-Staff and Response-Team and cl-alex in Response-Operators. ad-alex was allowed read access to the Response Share and cl-alex was allowed read access the Response Queue.  
   See [evidence index](evidence/week11-evidence-index.md#ev-34c82d-023)
+- **E13 · EV-34C82D-027** — Alex before/after access and changes (captured at revision 134)  
+  _What this proves:_ Under T502, Alex’s department was changed from Response to Audit on the person record, ad-alex and cl-alex. ad-alex was moved to OU-AUD, the old Response memberships were removed and audit memberships were added in both directories. Before the transfer Alex had read access to Response Share and Response Queue. After the transfer, Alex was denied read access to Response Share and Response Queue and allowed read access on Audit Share, Audit Evidence and Staff Handbook. Export access was also allowed in Audit Evidence.  
+  See [evidence index](evidence/week11-evidence-index.md#ev-34c82d-027)

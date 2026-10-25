@@ -1,39 +1,39 @@
 {
   "seed": "chic-w11-v1",
   "attempt": "attempt 34C82D",
-  "state_revision": 133,
-  "text_revision": 376,
-  "exported_at": "2026-10-24T04:02:15.707Z",
-  "draft": true,
+  "state_revision": 134,
+  "text_revision": 378,
+  "exported_at": "2026-10-25T00:07:02.824Z",
+  "draft": false,
   "provenance": "Fictional Cloud Heights simulation. Historical records are fabricated; live records were produced by this attempt.",
   "files": [
     {
       "path": "week-11/labs/lab-01-identity-directory.md",
-      "sha256": "e0629f75439ad45fe89912ece720d8cff15bce95b640fceb33b221bac77483a5"
+      "sha256": "13daba29f73aabdb6603c6f7e83d1d1a40cac9869715bbfdac7fe622c5de886f"
     },
     {
       "path": "week-11/labs/lab-02-authentication-vs-authorization.md",
-      "sha256": "bdca32ec4ece170a2573bf3e04db382c8d88ebadcbad1e8bf6c9e7612c7e7b6a"
+      "sha256": "89ae17034f566d7494f7914209509819f130480ac31767626e03034f39a46078"
     },
     {
       "path": "week-11/labs/lab-03-build-and-manage-directory.md",
-      "sha256": "09c2e479677ceb9edd2365a667141d533d67c36078566ad5bcdebc74e3319872"
+      "sha256": "1d1b488d408c2c901b1659a8c95511285704c04de041ff90cfc2c30ce518abb5"
     },
     {
       "path": "week-11/labs/lab-04-least-privilege-challenge.md",
-      "sha256": "91dc0aecbeebac14c986695873637e7ceb8dc482b05d65569faa19c04dc09cea"
+      "sha256": "5b2339b6296edc16c96d10decf91cf40a58f828bc3cf5b0aa2321b07a3b5ff68"
     },
     {
       "path": "week-11/labs/lab-05-joiner-mover-leaver.md",
-      "sha256": "23a793ac98e9719e0a22f583bdcc58e41ad085355629054122de46c642e125b2"
+      "sha256": "cf768ed18909e026744cc2748405e7591f6ea5c250b15af4d2c9c6247f28c972"
     },
     {
       "path": "week-11/labs/lab-06-identity-investigation-case-file.md",
-      "sha256": "79f5c53f3b9ffb5130e3e8d36f55da56fe1c189321cc9ebcd0ef1189fd3b0311"
+      "sha256": "7a2d5b237c0203b1c38156487297e8b09d226e57840cc8dd2d79b0d2f862bb70"
     },
     {
       "path": "week-11/README.md",
-      "sha256": "95dc8fcb44174fdfd660f4f6221176795912fe4977bba7f749bfd0ae2b3b16c2"
+      "sha256": "0738c268593ff6c348ef9f7f79067c3e61e8f79f4b44339162e556c55e62596b"
     },
     {
       "path": "week-11/labs/README.md",
@@ -41,11 +41,11 @@
     },
     {
       "path": "week-11/labs/evidence/week11-evidence.json",
-      "sha256": "337cbfa5302b59596f1505d544f6b538fa7bc151501ba93d8f544f99ff20b180"
+      "sha256": "03ae0a6917a12856403a9c6551da00af97ec647bec95169cfcdf6305339c4b9b"
     },
     {
       "path": "week-11/labs/evidence/week11-evidence-index.md",
-      "sha256": "d99ffe59ae334bed6a045c2a62dcdd784265dbbc000f81a690999676fc772df2"
+      "sha256": "4f63c65318f3f1495b38e397aa75ce4d8925371b1b27f0f3e83dbb5f35429c2a"
     },
     {
       "path": "week-11/labs/evidence/historical-signins.tsv",
@@ -57,7 +57,7 @@
     },
     {
       "path": "week-11/labs/evidence/simulator-activity.json",
-      "sha256": "f0a5501e44f0962aeb576601d18c634b9becdcdb246c4a015e783a143bb98d5f"
+      "sha256": "4362d1d0c015069e0584090a7ec836f5b26c8aa8bf9b5c2489d6b3a0b6505fa3"
     }
   ]
 }

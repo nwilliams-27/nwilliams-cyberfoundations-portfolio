@@ -1,7 +1,7 @@
 # Lab 03 — Build and Manage the Directory
 
 **Learner:** N. Williams  
-**Attempt:** attempt 34C82D · seed chic-w11-v1 · state revision 133 · text revision 376
+**Attempt:** attempt 34C82D · seed chic-w11-v1 · state revision 134 · text revision 378
 
 > Training simulation — fictional Cloud Heights accounts and resources. Your actions change only your Week 11 learning attempt. This is not a live AD domain, Microsoft Entra tenant or Azure subscription.
 

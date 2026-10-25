@@ -1,19 +1,9 @@
-# Week 11 — IAM & Active Directory: Who Gets Access to What?
+# Week 11 submission guide
 
-**Learner:** N. Williams  
-**Attempt:** attempt 34C82D · seed chic-w11-v1 · state revision 133 · text revision 376
+1. Unzip this export. Keep the folder structure.
+2. Open **your own** CyberFoundations portfolio repository on GitHub (not the template).
+3. Go into (or create) `week-11/labs/`. Use **Add file → Upload files**, drag in the six lab files, this README and the `evidence/` folder, preview the changes, write a descriptive commit message and choose **Commit changes**.
+4. Upload `week-11/README.md` to `week-11/`. If a README already exists there, replace it only on purpose.
+5. Open the committed files and check your name and latest answers appear.
 
-> Training simulation — fictional Cloud Heights accounts and resources. Your actions change only your Week 11 learning attempt. This is not a live AD domain, Microsoft Entra tenant or Azure subscription.
-
-Browser-based simulated AD/IAM administration in Cloud Heights Identity Center. No real domain, tenant or Azure subscription was configured.
-
-Lab 06 is the **IAM Investigation Case File (Portfolio Deliverable 4)** — a technical case file. Week 12 uses it as source material for the professional Technical Incident Report and Executive Summary and the final portfolio presentation.
-
-- [Lab 01: Identity Directory: Who Is Who?](labs/lab-01-identity-directory.md)
-- [Lab 02: Authentication vs. Authorization: A Valid Badge Doesn't Open Every Door](labs/lab-02-authentication-vs-authorization.md)
-- [Lab 03: Build and Manage the Directory](labs/lab-03-build-and-manage-directory.md)
-- [Lab 04: Least Privilege Challenge](labs/lab-04-least-privilege-challenge.md)
-- [Lab 05: Joiner, Mover, Leaver](labs/lab-05-joiner-mover-leaver.md)
-- [Lab 06: Identity Investigation + Case File (Deliverable 4)](labs/lab-06-identity-investigation-case-file.md)
-
-Status: **DRAFT** — some missions incomplete.
+Downloading or uploading does not submit anything for grading. Grading submission instructions are provided separately. Screenshots are optional (`assets/screenshots/week-11/`). Don't delete other weeks' work.
